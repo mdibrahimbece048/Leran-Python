@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pythonlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pythonlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnPython"
+        tools:targetApi="31">
+        <activity
+            android:name=".intentPassing"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".drawerlayoutmain"
+            android:exported="false" />
+        <activity
+            android:name=".mathFunctionProgram"
+            android:exported="false" />
+        <activity
+            android:name=".functionProgram"
+            android:exported="false" />
+        <activity
+            android:name=".dictProgram"
+            android:exported="false" />
+        <activity
+            android:name=".tupleProgram"
+            android:exported="false" />
+        <activity
+            android:name=".setProgram"
+            android:exported="false" />
+        <activity
+            android:name=".listFunctionProgram"
+            android:exported="false" />
+        <activity
+            android:name=".listProgram"
+            android:exported="false" />
+        <activity
+            android:name=".whileProgram"
+            android:exported="false" />
+        <activity
+            android:name=".forLoopProgram"
+            android:exported="false" />
+        <activity
+            android:name=".rangeProgram"
+            android:exported="false" />
+        <activity
+            android:name=".nestedIf"
+            android:exported="false" />
+        <activity
+            android:name=".ifElseLadder"
+            android:exported="false" />
+        <activity
+            android:name=".ifElse"
+            android:exported="false" />
+        <activity
+            android:name=".Constructor"
+            android:exported="false" />
+        <activity
+            android:name=".DateAndTime"
+            android:exported="false" />
+        <activity
+            android:name=".math_function"
+            android:exported="false" />
+        <activity
+            android:name=".string_method"
+            android:exported="false" />
+        <activity
+            android:name=".String"
+            android:exported="false" />
+        <activity
+            android:name=".Dicstionaries"
+            android:exported="false" />
+        <activity
+            android:name=".Tuple_Function"
+            android:exported="false" />
+        <activity
+            android:name=".tuples"
+            android:exported="false" />
+        <activity
+            android:name=".sets"
+            android:exported="false" />
+        <activity
+            android:name=".List_Method"
+            android:exported="false" />
+        <activity
+            android:name=".List_Function"
+            android:exported="false" />
+        <activity
+            android:name=".Lists"
+            android:exported="false" />
+        <activity
+            android:name=".Jump_statement"
+            android:exported="false" />
+        <activity
+            android:name=".While_Loop"
+            android:exported="false" />
+        <activity
+            android:name=".For_Loop"
+            android:exported="false" />
+        <activity
+            android:name=".Nested_If"
+            android:exported="false" />
+        <activity
+            android:name=".If_Else_Ladder"
+            android:exported="false" />
+        <activity
+            android:name=".If_Else"
+            android:exported="false" />
+        <activity
+            android:name=".If"
+            android:exported="false" />
+        <activity
+            android:name=".comments"
+            android:exported="false" />
+        <activity
+            android:name=".dataType"
+            android:exported="false" />
+        <activity
+            android:name=".operators"
+            android:exported="false" />
+        <activity
+            android:name=".keyword"
+            android:exported="false" />
+        <activity
+            android:name=".userInput"
+            android:exported="false" />
+        <activity
+            android:name=".variables"
+            android:exported="false" />
+        <activity
+            android:name=".firstprogram"
+            android:exported="false" />
+        <activity
+            android:name=".operatorsinpython"
+            android:exported="false" />
+        <activity
+            android:name=".lambda"
+            android:exported="false" />
+        <activity
+            android:name=".function"
+            android:exported="false" />
+        <activity
+            android:name=".dict"
+            android:exported="false" />
+        <activity
+            android:name=".set"
+            android:exported="false" />
+        <activity
+            android:name=".tuple"
+            android:exported="false" />
+        <activity
+            android:name=".slicing_operator"
+            android:exported="false" />
+        <activity
+            android:name=".strmethodbasic"
+            android:exported="false" />
+        <activity
+            android:name=".strbasic"
+            android:exported="false" />
+        <activity
+            android:name=".listComprehensionBasic"
+            android:exported="false" />
+        <activity
+            android:name=".listbasic"
+            android:exported="false" />
+        <activity
+            android:name=".rangebasic"
+            android:exported="false" />
+        <activity
+            android:name=".loopsbasic"
+            android:exported="false" />
+        <activity
+            android:name=".Decisionbasic"
+            android:exported="false" />
+        <activity
+            android:name=".keywordsForbasicPython"
+            android:exported="false" />
+        <activity
+            android:name=".VariablesAndTypesForBasicPython"
+            android:exported="false" />
+        <activity
+            android:name=".theoryofintroduction"
+            android:exported="false" />
+        <activity
+            android:name=".Dataabtraction"
+            android:exported="false" />
+        <activity
+            android:name=".Polymorphism"
+            android:exported="false" />
+        <activity
+            android:name=".Inheritance"
+            android:exported="false" />
+        <activity
+            android:name=".encapsulation"
+            android:exported="false" />
+        <activity
+            android:name=".object"
+            android:exported="false" />
+        <activity
+            android:name=".classOOP"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".PythonPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".OOPinPython"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerBasicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id"
+            />
+    </application>
+
+</manifest>

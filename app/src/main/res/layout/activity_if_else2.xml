@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#4B7379"
+    tools:context=".ifElse">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#7AEEEE"
+        android:text="@string/python"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10sp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="5sp"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/exif1" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse1"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/exif2" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse2"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:src="@drawable/exif3" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse3"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:src="@drawable/exif4" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse5"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="165dp"
+                        android:src="@drawable/exif5" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse6"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="376dp"
+                        android:src="@drawable/exif6" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse7"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="282dp"
+                        android:src="@drawable/exif7" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="282dp"
+                        android:src="@drawable/exif71" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse8"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="322dp"
+                        android:src="@drawable/exif8" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse9"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="255dp"
+                        android:src="@drawable/exif9" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse10"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:src="@drawable/exif10" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse11"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="255dp"
+                        android:src="@drawable/exif11" />
+                    <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp"
+                    android:src="@drawable/exif111" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse12"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="380dp"
+                        android:src="@drawable/exif12" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse13"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="216dp"
+                        android:src="@drawable/exif13" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="216dp"
+                        android:src="@drawable/exif131" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse14"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="378dp"
+                        android:src="@drawable/exif14" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse15"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="182dp"
+                        android:src="@drawable/exif15" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse17"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="216dp"
+                        android:src="@drawable/exif16" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse18"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="257dp"
+                        android:src="@drawable/exif17" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:padding="10sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/ifElse20"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="349dp"
+                        android:src="@drawable/exif18" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

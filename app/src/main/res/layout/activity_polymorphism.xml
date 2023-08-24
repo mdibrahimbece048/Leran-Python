@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Polymorphism"
+    android:background="#409AA4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#00E5FF"
+        android:textStyle="italic"
+        android:textScaleX="1.1"
+        android:text="@string/ens1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="12sp"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#EFF8F9">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180sp"
+                        android:src="@drawable/poly"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="350sp"
+                        android:src="@drawable/poly1"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="440sp"
+                        android:src="@drawable/poly2"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="340sp"
+                        android:src="@drawable/poly3"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="-7sp"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#EFF8F9">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens2"
+                        android:textSize="28sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens3"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="480sp"
+                        android:src="@drawable/poly4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens4"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="407dp"
+                        android:src="@drawable/poly5" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens5"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="550dp"
+                        android:src="@drawable/poly6" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens6"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="404dp"
+                        android:src="@drawable/poly7" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens7"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="540sp"
+                        android:src="@drawable/poly8" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens8"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="289dp"
+                        android:src="@drawable/poly9" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ens9"
+                        android:textSize="23sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500sp"
+                        android:src="@drawable/poly10" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

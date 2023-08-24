@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#145B5B"
+    android:orientation="vertical"
+    tools:context=".tuples">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#7BA6EE"
+        android:textStyle="italic"
+        android:textScaleX="1.1"
+        android:text="@string/tuple"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#CEE5EF"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple1"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple2"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple3"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple4"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple5"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple6"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple7"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple8"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple9"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple10"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:background="#DCF2E7"
+                       android:orientation="vertical">
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="@string/tuple11"
+                           android:textColor="@color/black"
+                           android:textScaleX="1.1"
+                           android:textSize="23sp"
+                           android:padding="5sp"
+                           android:textStyle="bold" />
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="@string/tuple12"
+                           android:textColor="@color/black"
+                           android:textScaleX="1.1"
+                           android:textSize="23sp"
+                           android:padding="5sp"
+                           android:textStyle="italic" />
+                   </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E9F9FB"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tuple13"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tuple14"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tuple15"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/listMe30"
+                        android:textColor="@color/white"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="@color/black"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple17"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple1" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple18"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple19"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple20"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="164dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple21"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple23"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple24"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple25"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="233dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple4" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple26"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple27"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple28"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple5" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple29"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple30"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple31"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple6" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple32"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple33"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="122dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple7" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple34"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple35"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple8" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple36"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple37"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tuple9" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple18"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple38"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuple39"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.05"
+                        android:padding="5sp"
+                        android:background="#B0F8F8"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:padding="5sp"
+                        android:background="@color/white"
+                        android:text="@string/set21"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@color/white"
+                        android:src="@drawable/tupl10" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E1F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/set22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/tuple40"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

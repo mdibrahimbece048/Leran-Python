@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27818E"
+    android:orientation="vertical"
+    tools:context=".rangeProgram">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#7AEEEE"
+        android:text="@string/python5"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10sp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/rangep"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="348dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/basic" />
+                    <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="-5sp"
+                    android:src="@drawable/basic1" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="-13sp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/rangep1"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="255dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/custom" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/custom1" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="-13sp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:paddingLeft="7sp"
+                        android:text="@string/rangep2"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/negative" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/negative1" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="-13sp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="23sp"
+                        android:textStyle="italic"
+                        android:paddingLeft="7sp"
+                        android:textColor="@color/black"
+                        android:background="#E2E8E8"
+                        android:text="@string/rangep3"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="-5sp"
+                        android:src="@drawable/listp" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@drawable/listp1" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

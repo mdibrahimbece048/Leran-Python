@@ -1,0 +1,1486 @@
+<resources>
+    <string name="app_name">Learn Python</string>
+    <string name="button1">  Basic Python</string>
+
+    <string name="main">Course Outline:</string>
+
+    <string name="b1Basic">1.Introduction To Python</string>
+    <string name="b2Basic">2.First Program in Python</string>
+    <string name="b3Basic">3.Variables</string>
+    <string name="b4Basic">4.User input In Python</string>
+    <string name="b5Basic">5.Keyword</string>
+    <string name="b6">6.Operators in Python</string>
+    <string name="b7">7.Data Type</string>
+
+    <string name="b8Basic">8.Comments</string>
+    <string name="b9Basic">9.If</string>
+    <string name="b10Basic">10.If Else</string>
+    <string name="b11Basic">11.If Else Ladder</string>
+    <string name="b12Basic">12.Nested If</string>
+    <string name="b131Basic">13.range() function</string>
+    <string name="b13Basic">14.For Loop</string>
+    <string name="b14Basic">15.While Loop</string>
+    <string name="b15Basic">16.Jump Statement</string>
+    <string name="b16Basic">17.Lists</string>
+    <string name="b17Basic">18.List Functions</string>
+    <string name="b18Basic">19.List Method</string>
+    <string name="b19set">20.sets</string>
+    <string name="b20tuples">21.Tuples</string>
+    <string name="b21">22.Tuple Function</string>
+    <string name="b22">23.Dictionaries</string>
+    <string name="b23">24.String</string>
+    <string name="b24">25.String Method</string>
+    <string name="b25">26.Function</string>
+    <string name="b26">27.Math Function</string>
+    <string name="b27">28.Date and Time</string>
+
+
+    <string name="b1mainscreen">1.Basic Python</string>
+    <string name="b2mainscreen">2.OOP in Python</string>
+    <string name="b3maincsreen">3.Python Programs</string>
+    <string name="b4maincsreen">4.Quiz in Python</string>
+    <string name="title_activity_encapsulation">encapsulation</string>
+    <!-- below is for theory part for introduction of python-->
+    <string name="intoall"> Here is an introduction to Python:</string>
+    <string name="introi">Introduction</string>
+    <string name="intro"> 1. What is Python?:</string>
+    <string name="intro1"> • Python is a high-level, interpreted, and general-purpose programming language. </string>
+    <string name="intro2"> • It was created by Guido van Rossum and first released in 1991.</string>
+    <string name="intro3"> • Python\'s design philosophy emphasizes code readability, simplicity, and a focus on clear syntax, making it easy to learn and use.</string>
+    <string name="intro4"> 2. Interpreted Language:</string>
+    <string name="intro5"> • Python is an interpreted language, meaning it does not need to be compiled before running.</string>
+    <string name="intro6"> • The Python interpreter reads the code line by line and executes it directly.</string>
+    <string name="intro7"> 3. High-level Language:</string>
+    <string name="intro8"> • Python provides a high-level abstraction, allowing developers to focus on solving problems without worrying about low-level details like memory management.</string>
+    <string name="intro9"> 4. General-purpose Language:</string>
+    <string name="intro10"> • Python can be used for a wide range of applications, such as web development, data analysis, artificial intelligence, scientific computing, automation, and more.</string>
+    <string name="intro11"> 5. Python Features:</string>
+    <string name="intro12"> • Dynamic typing: Variables can change data types during execution.</string>
+    <string name="intro13"> • Object-oriented: Supports object-oriented programming (OOP) concepts.</string>
+    <string name="intro14"> • Strongly-typed: Data type errors are checked during runtime.</string>
+    <string name="intro15"> • Indentation-based syntax: Uses indentation to define code blocks (no curly braces).</string>
+    <string name="intro16"> 6. Python Libraries and Frameworks:</string>
+    <string name="intro17"> • Python has a rich ecosystem of libraries and frameworks, such as:</string>
+    <string name="intro18"> • NumPy and Pandas for data manipulation and analysis.</string>
+    <string name="intro19"> • Django and Flask for web development.</string>
+    <string name="intro20"> • TensorFlow and PyTorch for machine learning and artificial intelligence.</string>
+    <string name="intro21"> • Matplotlib and Seaborn for data visualization.</string>
+    <string name="intro22"> Applications of Python:</string>
+    <string name="intro23"> 1. Web Development:</string>
+    <string name="intro24"> • Python\'s web frameworks like Django and Flask are popular choices for building web applications.</string>
+    <string name="intro25"> • They provide robust features, easy database integration, and rapid development capabilities.</string>
+    <string name="intro26"> 2. Data Analysis and Visualization:</string>
+    <string name="intro27"> • Python, along with libraries like NumPy and Pandas, is widely used for data manipulation, cleaning, and analysis.</string>
+    <string name="intro28"> • Visualization libraries like Matplotlib and Seaborn help create interactive and informative data visualizations.</string>
+    <string name="intro29"> 3. Machine Learning and Artificial Intelligence:</string>
+    <string name="intro30"> • Python has become a dominant language in the machine learning and AI domains. </string>
+    <string name="intro31"> • Libraries like TensorFlow, PyTorch, and Scikit-learn make it easy to implement complex machine learning models and perform deep learning tasks.</string>
+    <string name="intro32"> 4. Scripting and Automation:</string>
+    <string name="intro33"> • Python is often used for writing scripts and automating repetitive tasks. </string>
+    <string name="intro34"> • Its simplicity and cross-platform compatibility make it an excellent choice for automation in various systems.</string>
+    <string name="intro35"> 5. Scientific Computing:</string>
+    <string name="intro36"> • Python is popular in scientific research and engineering fields.</string>
+    <string name="intro37"> • Libraries like SciPy and NumPy provide tools for scientific computing, numerical methods, and advanced mathematical functions.</string>
+    <string name="intro38"> 6. Game Development:</string>
+    <string name="intro39"> • Python has game development frameworks like Pygame that are used to create simple 2D games and prototypes.</string>
+    <string name="intro40"> 7. Natural Language Processing (NLP):</string>
+    <string name="intro41"> • Python is used in NLP applications, such as language translation, sentiment analysis, and chatbots, thanks to libraries like NLTK (Natural Language Toolkit) and spaCy.</string>
+    <string name="intro42"> 8. Data Science:</string>
+    <string name="intro43"> • Python\'s data manipulation and visualization capabilities, along with its integration with other data science libraries, make it a popular choice for data science projects.</string>
+    <string name="intro44"> •</string>
+    <string name="intro45"> •</string>
+    <string name="intro46"> •</string>
+    <string name="intro47"> •</string>
+    <string name="intro48"> •</string>
+    <string name="intro49"> •</string>
+    <string name="intro50"> •</string>
+    <string name="intro51"> •</string>
+    <string name="intro52"> •</string>
+    <string name="intro53"> •</string>
+    <string name="intro54"> •</string>
+    <string name="intro55"> •</string>
+    <string name="intro56"> •</string>
+    <string name="intro57"> •</string>
+    <string name="intro58"> •</string>
+
+
+    <string name="variables">Variables and Types</string>
+    <string name="variablesdef">In Python,a variable is a named storage location used to store data.Unlike some other programming languages,you don not need to declare the type of a variable explicitly in Python.The data type of the variable is determined automatically based on the value assigned to it.</string>
+    <string name="naming">Variables Naming Rule in Python</string>
+    <string name="naming1">1.Variable names can contain letters (both uppercase and lowercase),digits, and underscores(_).</string>
+    <string name="naming2">2.
+     The first character of the variable
+     name cannot be a digit.</string>
+    <string name="naming3">3.Variable names are case-sensitive, so "myVar" and "myvar" are considered different variables.</string>
+    <string name="naming4">4.Python reserved keywords (e.g., if, else, while, for, etc.) cannot be used as variable names.</string>
+    <string name="Assigning">Assigning Values to Variables</string>
+    <string name="Assignning1">In Python, you assign a value to a variable using the assignment operator (=). The value on the right side of the equal sign is assigned to the variable on the left side.</string>
+    <string name="examplecode">Example Code</string>
+    <string name="examplecode1">Here are some examples to demonstrate how to create variables and assign values to them:</string>
+    <string name="output1">Output: Current temperature is: 25.5</string>
+    <string name="output2">Output: Am I a student? True</string>
+
+    <string name="datatypes">Data Types</string>
+
+    <string name="keywords">Keywords</string>
+    <string name="lets">Let\'s explain some of the essential keywords with code examples:</string>
+    <string name="operators">Here are some of the common operators in Python along with explanations and example code snippets showing their usage and output</string>
+    <string name="operators1">Operators in Python</string>
+    <string name="decision">Decision Control</string>
+    <string name="decision1">
+  . In Python,decision control is
+    implemented using conditional
+    statements.
+  . These statements allow you to
+    control the flow of your program
+    based on certain conditions.
+  . The three primary decision
+    control structures in Python are:</string>
+    <string name="d2">1.\'if\'statement: The if statement allows you to execute a block of code only if a certain condition is true. If the condition is false, the block of code will be skipped.</string>
+    <string name="d3">2.\'if-else\' statement: The if-else statement enables you to execute one block of code if a condition is true and another block of code if the condition is false.</string>
+    <string name="d4">3.\'if-elif-else\' statement: The \'if-elif-else\' statement allows you to chain multiple conditions together and execute different blocks of code based on the first condition that evaluates to true.</string>
+    <string name="d5">Now let\'s go through each of these decision control structures with code explanations:</string>
+    <string name="d6">1 .\'if\' statement</string>
+    <string name="d7">
+Explanation:
+ . In this example the \'if\' statement
+   checks if the value of x is greater than
+   5.
+ . Since the condition x > 5 is true
+  (x is 10),the indented block of
+  code underneath the if statement
+   is executed,
+  resulting in the output "x is
+  greater than 5."</string>
+    <string name="d8">2. if-else statement:</string>
+    <string name="d9">
+ Explanation:
+  -> In this example,the \'if\' statement
+    checks if the value of x is greater
+    than 5.
+  -> Since x is 3, the condition is false,
+    and the code block under the else
+    statement
+    is executed, resulting in the output
+    x is not greater than 5."</string>
+    <string name="d10">3. \'if-elif-else\' statement:</string>
+    <string name="d11">
+  Explanation:
+  -> In this example, the if statement
+     checks if the value of x is greater
+     than 10. Since the condition is false
+     the elif statement checks if x is
+     greater than 5. Since x is 7, this
+     condition is true, and the
+     corresponding code block is executed
+     resulting in the output x is greater
+     than 5 but not greater than 10."</string>
+    <string name="d12">
+  These are the fundamental decision
+  control structures in Python.
+  You can also combine multiple if
+  elif, and else statements to create
+  more complex decision-making
+  logic as needed.</string>
+
+    <string name="loop">Loop in Python</string>
+    <string name="loop1">1.for loop</string>
+    <string name="loop2"> In Python, a for loop is a control
+ flow statement used for iterative
+ tasks. It allows you to execute
+ a block of code repeatedly for
+ each element in a sequence
+ (such as a list, tuple, string
+ or other iterable data types).
+ The for loop is often used when
+ you want to perform a specific
+ operation for each item in a
+ collection.
+
+ The general syntax of a for loop
+ in Python is as follows:</string>
+    <string name="loop3">Here, item is a variable that takes
+ the value of each element in the
+ iterable, and the code block under
+ the for loop is executed once for
+ each element in the sequence.</string>
+    <string name="loop4">Example 1: Using a for loop with a
+ list:</string>
+    <string name="loop5">1.for loop</string>
+    <string name="loop6">1.for loop</string>
+    <string name="loop7">1.for loop</string>
+    <string name="loop8">1.for loop</string>
+    <string name="loop9">1.for loop</string>
+    <string name="loop10">1.for loop</string>
+    <string name="loop11">1.for loop</string>
+    <string name="loop12">1.for loop</string>
+    <string name="first">First Program in Python</string>
+
+    <string name="first1">Python will raise an error if you
+ skip Indentation </string>
+    <string name="first2">After colon (:) Press Enter it
+ will take indentation
+    </string>
+    <string name="first3">If you want to put second
+ indentation press "Tab"</string>
+    <string name="first4"> Note: You have to apply same
+ indentation for all if statement as well else statement.</string>
+    <string name="h1"> --> The "Hello, World!" program is a simple program that is commonly used to demonstrate the basic syntax of a programming language. In Python, it is very straightforward:</string>
+    <string name="h2">Explanation:
+1.print() is a built-in function in Python used to display output to the console.</string>
+    <string name="h3">2."Hello, World!" is a string literal, enclosed in double quotes. It is the message we want to display.</string>
+
+    <string name="var1">Variables in Python</string>
+    <string name="var2">1.In Python, variables are used to store and manipulate data</string>
+    <!--<string name="decision">Decision Control</string>-->
+    <string name="var3">2. A variable is like a container that holds a value, and you can give it a name to easily refer to that value later in your code.</string>
+    <string name="var4">3.Python is a dynamically-typed language, which means you don\'t need to explicitly declare the type of a variable; Python infers it based on the value assigned to it.</string>
+    <string name="var5">
+ Here\'s the general syntax to create a variable in Python:</string>
+    <string name="var6">1.variable_name: This is the name you give to the variable. It can consist of letters, digits, and underscores (_), but it must start with a letter or underscore (not a digit).</string>
+    <string name="var7">2.value: This is the data you want to store in the variable.</string>
+    <string name="var8">Here\'s a simple Python code snippet to demonstrate variable usage:</string>
+    <string name="var9">In this code snippet, we create several variables with different names and assign them different types of values. The variable
+        age is an integer,name is a string,height is a floating-point number, grades is a list, person is a dictionary, and is_student is a boolean.</string>
+    <string name="var10">Once you have assigned values to variables,you can use them in your code, perform operations with them, or change their values as needed. For example:</string>
+    <string name="var11">In this example, we access the values of variables using their names, perform mathematical operations using the grades list, and modify the values of name and age. Additionally, we add a new key-value pair to the person dictionary.</string>
+    <string name="var12">Overall, variables are essential components in Python and play a crucial role in storing and managing data throughout your programs.</string>
+    <string name="user">User input in Python</string>
+    <string name="user11">What is user input in python? </string>
+    <string name="user1">1. In Python,"user input" refers to
+   the data or information that a
+   user provides to a program
+   during its execution</string>
+    <string name="user2">2. It allows the program to interact
+   with the user, gather data
+   and respond accordingly. </string>
+    <string name="user3">3. The most common way to obtain
+   user input in Python is by
+   using the input() function.</string>
+    <string name="user4">Here\'s the basic syntax of the input() function:</string>
+    <string name="user5">4. In this example,the program will
+   display the prompt "Enter your
+   name:" to the user.</string>
+    <string name="user6">1. Keep in mind that the input()
+   function always returns the
+   user\'s input as a string. </string>
+    <string name="user7">
+   2. If you expect a different type of
+   data (e.g., integer, float), you need to
+   convert it explicitly using appropriate
+   type-casting functions like int() or
+   float().</string>
+    <string name="user8">
+   Example 1: Getting and displaying
+   the user\'s name</string>
+    <string name="user9"> Example 2: Adding two numbers
+   entered by the user</string>
+    <string name="example3">Example 3: Calculating the area of a
+   circle from user input using float for
+   decimal inputs)</string>
+    <string name="example4">Example 4: Checking if a number is
+   even or odd</string>
+    <string name="keyword">Keyword</string>
+    <string name="keyword1">1.In Python,a "keyword" is a
+    reserved word that has a specific
+   meaning and purpose in the
+   language. </string>
+    <string name="keyword2">2.These keywords can not be used
+   as variable names or identifiers
+   because they have predefined
+   roles within Python.</string>
+    <string name="keyword3">3.To list all the keywords in
+    Python you can use the keyword
+    module.</string>
+    <string name="keyword4">4.Here\'s a concise way to display
+   all the keywords:</string>
+    <string name="keyword5">Some of the list of Keywords</string>
+
+
+    <string name="operator1">What is operator?</string>
+    <string name="operator2">1. In computer programming, operators
+    are symbols or special characters
+    that perform specific operations on
+    one or more operands. </string>
+    <string name="operator3"> What is operands?</string>
+    <string name="operator4">1. In computer programming, operands
+    are the values or entities that are
+    operated upon by operators.</string>
+    <string name="operator5">2.They can be variables, constants
+    or expressions.</string>
+    <string name="operator6">3.Operands are the data values or
+    expressions involved in performing
+    operations using operators.</string>
+    <string name="operator7">4.In the context of arithmetic
+    operations, operands are the values
+    you want to add, subtract, multiply
+    divide, etc. </string>
+    <string name="operator8">5. For example, in the expression
+    3 + 5, the operands are 3 and 5
+    and the operator is the addition
+    symbol (+).</string>
+    <string name="operator9">6. Similarly, in the expression x * y
+    x and y are operands and  *  is the
+    multiplication operator.</string>
+    <string name="operator10"> Types of Operator.</string>
+    <string name="operator11">    Operators can be categorized into
+    different types based on their
+    functionality.Here are some common
+    types of operators:</string>
+    <string name="operator12">1. Arithmetic Operators:
+    These operators perform basic
+    arithmetic operations on numeric
+    values.</string>
+    <string name="operator13"> -> Addition (+): Adds two operands.
+    </string>
+    <string name="operator14"> Example Code </string>
+    <string name="operator15">-> Subtraction (-): Subtracts the second
+    operand from the first.</string>
+    <string name="operator16"> -> Multiplication (*): Multiplies two
+    operands.</string>
+    <string name="operator17">-> Division (/): Divides the first operand
+     by the second.</string>
+    <string name="operator18">-> Modulus (%): Computes the remainder
+    of the division of the first operand by
+    the second.</string>
+    <string name="operator19">-> Increment (++): Increases the value of
+    the operand by 1.</string>
+    <string name="operator20">-> Decrement (- -): Decreases the value
+    of the operand by 1.</string>
+    <string name="operator21">Output</string>
+    <string name="operator22">2.Relational Operators:These operators compare the values of two operands and return a Boolean value (true or false) indicating the result of the comparison.</string>
+    <string name="operator23">• Equal to (==)</string>
+    <string name="operator24">• Not equal to (!=)</string>
+    <string name="operator25">• Greater than (>)</string>
+    <string name="operator26">er</string>
+    <string name="operator27">• Greater than or equal to (>=)</string>
+    <string name="operator28">3.Logical Operators: These operators are used to perform logical operations and evaluate Boolean expressions.</string>
+    <string name="operator29">•Logical AND (&amp;&amp;)</string>
+    <string name="operator30">•Logical OR (||)</string>
+    <string name="operator31">•Logical NOT (!)</string>
+    <string name="operator32">4.Assignment Operators: These operators are used to assign values to variables.</string>
+
+    <string name="operator33">•Assignment (=)</string>
+    <string name="operator34">•Addition assignment (+=)</string>
+    <string name="operator35">•Subtraction assignment (-=)</string>
+    <string name="operator36">•Multiplication assignment (*=)</string>
+    <string name="operator37">•Division assignment (/=)</string>
+    <string name="operator38">•Modulus assignment (%=)</string>
+    <string name="operator39">5.Bitwise Operators: These operators perform operations at the bit level.
+</string>
+    <string name="operator40">•Bitwise AND (&amp;)</string>
+    <string name="operator41">•Bitwise OR (|)</string>
+    <string name="operator42">•Bitwise XOR (^)</string>
+    <string name="operator43">•Bitwise NOT (~)</string>
+    <string name="operator44">Left shift (&lt;&lt;)</string>
+    <string name="operator45">•Right shift (>>)</string>
+    <string name="operator46">6.Conditional (Ternary) Operator: This operator is a shorthand way to write simple if-else statements.</string>
+    <string name="operator47">•Syntax: condition ? expression_if_true : expression_if_false</string>
+    <string name="operator48">7.Membership Operators:</string>
+    <string name="operator49">• in : Evaluates to True if a value is found in a sequence</string>
+    <string name="operator50">• not in : Evaluates to True if a value is not found in a sequence</string>
+    <string name="operator51">8.Identity Operators:</string>
+    <string name="operator52">• is : Evaluates to True if two variables reference the same object</string>
+    <string name="operator53">• is not : Evaluates to True if two variables reference different objects </string>
+    <string name="datatype1"> What is Data Type?</string>
+    <string name="datatype2">•In Python,a data type refers to the classification of data based on its nature and the operations that can be performed on it.</string>
+    <string name="datatype3">• Python is a dynamically typed language, meaning you don\'t need to explicitly declare the data type of a variable.</string>
+    <string name="datatype4">• it is determined automatically at runtime based on the value assigned to it.</string>
+    <string name="datatype5"> Here are some commonly used data types in Python:</string>
+    <string name="datatype6">1.Numeric types:</string>
+    <string name="datatype7">• int: Represents integer numbers like 1, 0, -5, etc.</string>
+    <string name="datatype8">• float: Represents floating-point numbers with decimal points like 3.14, -2.718, etc.</string>
+    <string name="datatype9">•complex: Represents complex numbers in the form of a + bj, where a and b are floats, and j is the imaginary unit.</string>
+    <string name="datatype10">2.Sequence types: </string>
+    <string name="datatype11">• str: Represents a string of characters like "Hello, World!" or \'Python\'.</string>
+    <string name="datatype12">• list: Represents a mutable ordered sequence of elements enclosed in square brackets [ ].</string>
+    <string name="datatype13">• range: Represents an immutable sequence of numbers.</string>
+    <string name="datatype14">• tuple: Represents an immutable ordered sequence of elements enclosed in parentheses( ).</string>
+    <string name="datatype15">3.Mapping type:</string>
+    <string name="datatype16">•dict: Represents a collection of key-value pairs enclosed in curly braces { }.</string>
+    <string name="datatype17">4.Set types:</string>
+    <string name="datatype18">•set: Represents an unordered collection of unique elements enclosed in curly braces { }.</string>
+    <string name="datatype19">•frozen set: Represents an immutable version of a set.</string>
+    <string name="datatype20">5.Boolean type:</string>
+    <string name="datatype21">• bool: Represents either True or False.</string>
+    <string name="datatype22">6.NoneType:</string>
+    <string name="datatype23">•None:Represents the absence of a value.</string>
+    <string name="comments">Comments in Python</string>
+    <string name="comments1">What is Comments?</string>
+    <string name="comments2">•In Python,comments are lines of code that are ignored by the interpreter during the execution of the program.</string>
+    <string name="comments3">•Python supports two types of comments:</string>
+    <string name="comments4">1. Single-line comments: These comments begin with the hash character (#) and continue until the end of the line.</string>
+    <string name="comments5">2.Multi-line comments (also known as docstrings): These comments are enclosed between triple quotes (\'\'\'\ or """) and can span across multiple lines.</string>
+    <string name="if1">What is if statement?</string>
+    <string name="if2">• In Python,if is a conditional statement used for decision-making.</string>
+    <string name="if3">• It allows you to execute a block of code only if a specific condition is true. </string>
+    <string name="if4">• If the condition evaluates to false, the code block associated with the \'if\' statement is skipped</string>
+    <string name="if5">,and the program continues with the next \'elif\' statement.</string>
+    <string name="if6">•The basic syntax of an if statement is as follows:</string>
+    <string name="if7">Example 1: Simple if condition </string>
+    <string name="if8">Example 2: if-else condition</string>
+    <string name="if9">Example 3: if-elif-else condition</string>
+    <string name="if10">Example 4: Nested if condition</string>
+    <string name="if11">Example 5: Using if with lists</string>
+    <string name="if111">If in Python</string>
+    <string name="output">Output</string>
+
+    <string name="if_else1">If Else in Python</string>
+    <string name="if_else2"> What is if else statement?</string>
+    <string name="if_else3">• In Python,the if-else statement is a conditional statement that allows you to execute different blocks of code based on a certain condition. </string>
+    <string name="if_else4">• It is a fundamental control flow construct in programming and is used to make decisions in your code.</string>
+    <string name="if_else5">• The basic syntax of the if-else statement in Python is as follows:</string>
+    <string name="if_else6">• Here\'s how it works?:</string>
+    <string name="if_else7">• The condition is an expression that evaluates to either True or False.</string>
+    <string name="if_else8">• If the condition is True, the code block indented under the if statement will be executed. </string>
+    <string name="if_else9">• If the condition is False, the code block indented under the else statement (if , else statement present) will be executed.</string>
+    <string name="if_else10"> Example 1: Checking if a number is positive or negative.</string>
+    <string name="if_else11"> Output: The number is negative.</string>
+    <string name="if_else12"> Example 2: Determining the type of a variable.</string>
+    <string name="if_else13"> Output: The variable is a string.</string>
+    <string name="if_else14"> Example 3: Checking eligibility for a discount.</string>
+    <string name="if_else15"> Output: You are eligible for a student discount.</string>
+    <string name="if_else16"> Example 4: Determining the season based on the month.</string>
+    <string name="if_else17"> Output: It\'s summer.</string>
+    <string name="if_else18"> Example 5: Checking if a number is even or odd.</string>
+    <string name="if_else19"> Output: The number is odd.</string>
+    <string name="if_else20">•</string>
+
+    <string name="ifLadder"> If Else Ladder</string>
+    <string name="ifLadder1"> What is if else ladder?</string>
+    <string name="ifLadder2">• In Python,an "if-else ladder" refers to a series of if,elif (else if),and else statements used together to handle multiple conditions in a hierarchical manner.</string>
+    <string name="ifLadder3">• It allows you to test multiple conditions sequentially,and the code inside the block corresponding to the first true condition will be executed.</string>
+    <string name="ifLadder4">• Once a true condition is found,the rest of the ladder is skipped.</string>
+    <string name="ifLadder5">• The basic syntax of an if-else ladder is as follows:</string>
+    <string name="ifLadder6"> Example 1: Checking the range of a number.</string>
+    <string name="ifLadder7"> Output: The number is between 0 and 50 (inclusive).</string>
+    <string name="ifLadder8"> Example 2: Categorizing ages.</string>
+    <string name="ifLadder9"> Output: Adult</string>
+    <string name="ifLadder10"> Example 3: Checking eligibility for voting and driving.</string>
+    <string name="ifLadder11"> Output: You are eligible to vote but not to drive.</string>
+    <string name="ifLadder12"> Example 4: Determining the sign of a number.</string>
+    <string name="ifLadder13"> Output: The number is negative.</string>
+    <string name="ifLadder14"> Example 5: Classifying grades</string>
+    <string name="ifLadder15">Output: B </string>
+
+    <string name="nestedIf"> Nested If</string>
+    <string name="nestedIf1"> What is nested if ?</string>
+    <string name="nestedIf2">• In Python, a "nested if" refers to an if statement (or multiple if statements) that is placed inside another if statement</string>
+    <string name="nestedIf3">• This allows you to create more complex conditional structures,where the execution of one if statement is dependent on the outcome of another if statement.</string>
+    <string name="nestedIf4"> The basic syntax of a nested if in Python is as follows:</string>
+    <string name="nestedIf5"> Example 1: Checking eligibility for voting and driving based on age</string>
+    <string name="nestedIf6"> Example 2: Categorizing exam scores based on subject</string>
+    <string name="nestedIf7"> Output: You got a B in Math.</string>
+    <string name="nestedIf8"> Example 3: Checking if a number is positive, negative, or zero.</string>
+    <string name="nestedIf9"> Output: The number is negative.</string>
+    <string name="nestedIf10"> Example 4: Classifying grades based on multiple conditions</string>
+    <string name="nestedIf11"> Output: B</string>
+    <string name="nestedIf12"> Example 5: Checking conditions for a game character.</string>
+    <string name="nestedIf13"> Output: You can use a special ability.</string>
+
+
+    <string name="for1"> For Loop</string>
+    <string name="for2"> What is for loop ?</string>
+    <string name="for3">•  In Python, a for loop is a control
+    flow statement used to iterate
+    over a sequence (such as a list,
+    tuple,string,dictionary,or any other
+    iterable object). </string>
+    <string name="for4">• Execute a block of code for each item in the sequence.</string>
+    <string name="for5">• The for loop simplifies the process of repeatedly executing code for each element in the collection without the need to manually manage the index or iteration process.</string>
+    <string name="for6"> The general syntax of a for loop in Python is as follows:</string>
+    <string name="for7">• Here\'s a breakdown of the components:</string>
+    <string name="for8">1. variable: This is a variable that will take on the value of each element in the iterable during each iteration of the loop. You can use any valid variable name here.</string>
+    <string name="for9">2. iterable: This is the collection or sequence over which the loop will iterate. It could be a list, tuple, string, dictionary, set, or any other object that supports iteration.</string>
+    <string name="for10">3. Code block: The indented block of code following the colon (:) will be executed for each item in the iterable.</string>
+    <string name="for11"> --> range function in python.</string>
+    <string name="for12">• In Python, the range() function is used to create a sequence of numbers within a specified range.</string>
+    <string name="for13">• It generates a sequence of integers starting from a specified start value (inclusive) to a specified end value (exclusive) with a given step size.</string>
+    <string name="for14">  The general syntax of the range() function is:</string>
+    <string name="for15">• where start is the starting value (inclusive), stop is the ending value (exclusive), and step is the increment between each value (default is 1).</string>
+    <string name="for16"> Example1: Generating a sequence of even numbers from 2 to 10 (exclusive) with a step of 2:</string>
+    <string name="for18"> Output:</string>
+    <string name="for19"> Example2: Generating a sequence of numbers from 5 to -5 (exclusive) with a step of -1:</string>
+    <string name="for20"> Example3: Creating a list of numbers from 1 to 5 (exclusive):</string>
+    <string name="for21"> Example4: Generating a sequence of numbers from 0 to 9 (exclusive):</string>
+    <string name="for22"> range() function</string>
+    <string name="for23"> Example 1: Printing numbers from 1 to 5.</string>
+    <string name="for24">• Explanation: In this example, the range(1, 6) function generates a sequence of numbers from 1 to 5 (inclusive).</string>
+    <string name="for25">• The for loop iterates over this sequence and prints each number.</string>
+    <string name="for26"> Example 2: Finding the sum of elements in a list.</string>
+    <string name="for27">• Explanation: This loop calculates the sum of all elements in the numbers list. It initializes a variable sum to 0 and then iterates over the list, adding each element to the sum variable.</string>
+    <string name="for28"> Example 3: Counting the number of vowels in a string.</string>
+    <string name="for29"> Example 4: Printing a pattern of stars.</string>
+    <string name="for30">• Explanation: The loop iterates from 0 to 4 (inclusive) using range(5). For each iteration, it prints a line of stars, where the number of stars on each line increases by one.</string>
+    <string name="for31"> Example 5: Finding the factorial of a number.</string>
+    <string name="for32"> Output: 120</string>
+    <string name="for33">• Explanation: This loop calculates the factorial of the number variable. It multiplies all the numbers from 1 to number and stores the result in the factorial variable.</string>
+    <string name="for34"> Example 6: Reversing a string</string>
+    <string name="for36">• Explanation: The loop iterates over each character in the text string and builds the reversed_text by concatenating each character in reverse order.</string>
+    <string name="for37"> Example 7: Iterating through a list of tuples.</string>
+    <string name="for38">• Explanation: This loop iterates through a list of tuples (students). It unpacks each tuple into name and age variables and then prints a sentence for each student.</string>
+    <string name="for39"> Example 8: Printing a number pyramid.</string>
+    <string name="for40">• Explanation: This loop prints a pyramid pattern of numbers. It prints spaces followed by a sequence of the same number on each line.</string>
+    <string name="for41"> Example 9: Using a dictionary to count character occurrences.</string>
+    <string name="for42">• Explanation: The loop iterates over each character in the text string. It uses a dictionary (char_count) to store the count of occurrences of each character.</string>
+    <string name="for43"> Example 10: Nested for loop to print a multiplication table</string>
+    <string name="for44">• Explanation: This example demonstrates a nested for loop. The outer loop runs from 1 to 5, and the inner loop also runs from 1 to 5.</string>
+    <string name="for45">•  It prints the multiplication table of numbers from 1 to 5.</string>
+    <string name="for46"> Output: nohtyP</string>
+
+
+    <string name="while1"> While Loop</string>
+    <string name="while2"> What is while loop ?</string>
+    <string name="while3">• In Python, a while loop is used to repeatedly execute a block of code as long as a specified condition is true.</string>
+    <string name="while4"> The basic syntax of a while loop is as follows:</string>
+    <string name="while5">1. The condition is an expression that is evaluated before each iteration of the loop.</string>
+    <string name="while6">2. If the condition is true, the code block inside the loop is executed.</string>
+    <string name="while7">3. After each iteration, the condition is evaluated again. If it is still true, the loop continues;</string>
+    <string name="while8">4. otherwise, the loop terminates, and the program moves on to the next statement after the loop.</string>
+    <string name="while9"> Example 1: Countdown.</string>
+    <string name="while10"> Explanation:
+This code uses a while loop to implement a countdown from 5 to 1.</string>
+    <string name="while11"> • The loop starts with countdown being 5, and in each iteration, it prints the current value of countdown and then decrements it by 1.</string>
+    <string name="while12"> • The loop continues until countdown is no longer greater than 0.</string>
+    <string name="while13"> Example 2: Sum of Natural Numbers.</string>
+    <string name="while14"> • Explanation:
+This code calculates the sum of the first n natural numbers (in this case, n = 10).</string>
+    <string name="while15"> • It uses a while loop to add n to the sum in each iteration and then decrements n by 1. </string>
+    <string name="while16"> • The loop continues until n is no longer greater than 0, resulting in the sum of the numbers from 1 to 10.</string>
+    <string name="while17"> Example 3: Factorial.</string>
+    <string name="while18"> • Explanation:
+This code calculates the factorial of a given number n (in this case, n = 5).</string>
+    <string name="while19"> • The while loop multiplies factorial by n in each iteration and then decrements n by 1.</string>
+    <string name="while20"> • The loop continues until n is no longer greater than 1, resulting in the factorial of 5 (5 * 4 * 3 * 2 * 1 = 120).</string>
+    <string name="while21"> Example 4: User Input Validation.</string>
+    <string name="while22"> • Explanation:
+This code asks the user to enter a password, and it keeps asking until the correct password ("secret") is entered. </string>
+    <string name="while23">
+    • The while loop runs as long as input_password is not equal to the expected password.</string>
+    <string name="while24"> • Once the correct password is entered, the loop terminates, and "Access granted"  is printed.</string>
+    <string name="while25"> Example 5: Infinite Loop.</string>
+    <string name="while26"> • Explanation:
+This code demonstrates an infinite loop, which is a loop that never terminates on its own. </string>
+    <string name="while27"> • Since the condition in the while loop is always true (True), the loop continues to execute indefinitely, printing the message "This is an infinite loop!" repeatedly.</string>
+    <string name="while28"> • Example 6: List Processing.</string>
+    <string name="while29"> • Explanation:
+This code uses a while loop to iterate through the elements of a list numbers.</string>
+    <string name="while30"> • The index variable starts at 0, and in each iteration, it prints the element at the current index and then increments index by 1.</string>
+    <string name="while31"> • The loop continues until the index is less than the length of the numbers list.</string>
+    <string name="while32"> Example 7: Finding Prime Numbers.</string>
+    <string name="while33"> • Explanation:
+This code finds and prints all prime numbers up to n (in this case, n = 20). It uses a nested while loop. </string>
+    <string name="while34"> • The outer loop runs from 2 to n, and for each number, the inner loop checks if it is prime. If the number is prime, it is printed.</string>
+    <string name="while35"> • A prime number is a number greater than 1 that has no divisors other than 1 and itself.</string>
+    <string name="while36"> Example 8: Fibonacci Series.</string>
+    <string name="while37"> • Explanation:
+This code generates and prints the Fibonacci series up to the given limit (in this case, limit = 20). </string>
+    <string name="while38"> • The while loop runs as long as the previous Fibonacci number (prev) is less than or equal to the limit. </string>
+    <string name="while39"> • The loop calculates the next Fibonacci number by adding the previous two numbers and updates the variables prev and current accordingly.</string>
+    <string name="while40"> Example 9: Breaking out of the Loop.</string>
+    <string name="while41"> • Explanation:
+This code demonstrates how to use the break statement to exit the loop prematurely.</string>
+    <string name="while42"> • The loop keeps printing the number and incrementing it until it reaches 5.</string>
+    <string name="while43"> •  When number becomes 5, the break statement is executed, causing the loop to terminate immediately.</string>
+    <string name="while44"> Example 10: Skipping Iterations with Continue.</string>
+    <string name="while45"> • Explanation:
+This code uses the continue statement to skip the current iteration of the loop if the num is divisible by 3. </string>
+    <string name="while46"> • The loop iterates through the elements of the numbers list, and whenever the condition num % 3 == 0 is true, the continue statement is executed, and the loop proceeds to the next iteration without printing the current value of num.</string>
+
+
+    <string name="jump">Jump statement</string>
+    <string name="jump1"> What is jump statement ?</string>
+    <string name="jump2"> • In Python, a "jump statement" typically refers to control flow statements that alter the normal execution order of a program.</string>
+    <string name="jump3"> • These statements allow you to control which parts of the code are executed and in what order. </string>
+    <string name="jump4"> •  The main jump statements in Python are:</string>
+    <string name="jump5"> 1. break: The break statement is used to exit a loop prematurely, interrupting the loop\'s execution and continuing with the code after the loop.</string>
+    <string name="jump6"> 2. continue: The continue statement is used to skip the current iteration of a loop and proceed with the next iteration.</string>
+    <string name="jump7"> Examples code for break statement :</string>
+    <string name="jump8"> Example 1: Using break to exit a loop when a condition is met.</string>
+    <string name="jump9"> Example 2: Using break to stop an infinite loop with user input.</string>
+    <string name="jump10"> Example 3: Using break to exit nested loops. </string>
+    <string name="jump11"> Example 4: Using break in a while loop. </string>
+    <string name="jump12"> Example 5: Using break with a labeled loop.</string>
+    <string name="jump13"> Examples code for continue statement.</string>
+    <string name="jump14"> Example 1: Using continue to skip even numbers in a loop.</string>
+    <string name="jump15"> Example 2: Using continue to skip certain elements in a list.</string>
+    <string name="jump16"> Example 3: Using continue in a while loop</string>
+    <string name="jump17"> Example 4: Using continue with a labeled loop</string>
+    <string name="jump18"> Example 5: Using continue to skip iterations in a list comprehension</string>
+    <string name="jump19"> Output: [2,4,6]</string>
+
+
+    <string name="list">List </string>
+    <string name="list1"> What is list?</string>
+    <string name="list2">• A list is a fundamental data structure in computer  programming and data science.</string>
+    <string name="list3">• It is a collection or sequence of elements that are ordered and can be manipulated in various ways. </string>
+    <string name="list4">• List is a container that holds multiple items, such as numbers, strings, or even other lists, arranged in a specific order.</string>
+    <string name="list5">• Here are some key points to provide you with a good understanding of lists:</string>
+    <string name="list6"> 1. Ordered Collection:</string>
+    <string name="list7"> • Lists maintain the order of elements, which means the items in the list have a specific position or index.</string>
+    <string name="list8"> • The first item is at index 0, the second item at index 1, and so on.</string>
+    <string name="list9"> 2. Mutable:</string>
+    <string name="list10"> • Lists are mutable, which means you can modify them after they are created.</string>
+    <string name="list11"> • You can add elements, remove elements, or change the values of existing elements within the list.</string>
+    <string name="list12"> 3. Heterogeneous Elements: </string>
+    <string name="list13"> • A list can contain elements of different data types.</string>
+    <string name="list14"> • For instance, you can have a list with integers, strings, and even other lists as its elements.</string>
+    <string name="list15"> 4. Enclosed in Square Brackets:  </string>
+    <string name="list16"> • In most programming languages, including Python, lists are typically denoted by square brackets [ ].</string>
+    <string name="list17"> • For example, a Python list containing integers could look like [1, 2, 3, 4, 5].</string>
+    <string name="list18"> 5. Accessing Elements: </string>
+    <string name="list19"> • You can access individual elements of a list using their index.</string>
+    <string name="list20"> • For instance, to access the first element of the list [1, 2, 3, 4, 5], you would use the index 0, so list[0] would give you the value 1.</string>
+    <string name="list21"> 6. Common Operations:  </string>
+    <string name="list22"> • Lists support various operations like appending elements, removing elements.</string>
+    <string name="list23"> • Finding the length of the list, slicing (extracting a portion of the list), sorting, and more.</string>
+    <string name="list24"> 7. Iterating Over Lists: </string>
+    <string name="list25"> • Lists are often used in loops to perform actions on each element sequentially.</string>
+    <string name="list26"> • For example, you can use a for loop to go through each item in the list and perform some operation on it.</string>
+    <string name="list27"> 8. Use Cases:  </string>
+    <string name="list28"> • Lists are incredibly versatile and find applications in numerous scenarios.</string>
+    <string name="list29"> • Such as storing data records, implementing stacks and queues.</string>
+    <string name="list30"> • Managing collections of items, and representing sequences.</string>
+
+    <string name="list31"> 1. Creating a List and Accessing Elements:</string>                         <!-- Examples-->
+    <string name="list41"> Explanation: </string>
+    <string name="list42"> 1. We start by creating a list called fruits containing five string elements:"apple", "banana", "orange", "grape", and "mango".</string>
+    <string name="list43"> 2. To access elements in the list, we use square brackets [ ] with the index of the element we want to retrieve.</string>
+    <string name="list44"> 3. In Python, lists are zero-indexed, meaning the first element is at index 0, the second at index 1, and so on.</string>
+    <string name="list45"> 4. In the first print statement, fruits[0] fetches the element at index 0, which is \'apple\'.</string>
+    <string name="list46"> 5. In the second print statement, fruits[2] retrieves the element at index 2, which is \'orange\'.</string>
+    <string name="list47"> 6. The third print statement, fruits[-1], demonstrates negative indexing.</string>
+    <string name="list48"> 7. Negative indices count elements from the end of the list, with -1 being the last element. Thus, it outputs \'mango\'.</string>
+
+    <string name="list49"> •</string>
+
+    <string name="list32"> 2. Modifying List Elements:</string>                         <!-- Examples-->
+    <string name="list50"> 1. We start by creating a list called numbers containing five integer elements: 1, 2, 3, 4, and 5.</string>
+    <string name="list51"> 2. The first element in the list has an index of 0, the second element has an index of 1, and so on.</string>
+    <string name="list52"> 3. In the code, we modify elements by assigning new values to specific indices using the assignment operator =. </string>
+    <string name="list53"> 4.  For example, numbers[1] = 10 sets the element at index 1 to the value 10.</string>
+    <string name="list54"> 5. Similarly, numbers[-1] = 25 modifies the last element of the list (using negative indexing) and sets it to the value 25.</string>
+    <string name="list55"> 6. After modifying the list, we print it using the print() function.</string>
+
+    <string name="list33"> 3. Appending Elements to a List:</string>    <!-- Examples-->
+    <string name="list56"> 1. We start by creating an empty list called colors. This list doesn\'t contain any elements initially.</string>
+    <string name="list57"> 2. The append() method is used to add elements to the list. It allows you to add new elements to the end of the list, one at a time.</string>
+    <string name="list58"> 3. In the code, we use the append() method three times to add three colors: red, green, and blue, to the list colors.</string>
+    <string name="list59"> 4. After appending the elements, we print the list using the print() function.</string>
+    <string name="list34"> 4. Removing Elements from a List:</string>     <!-- example-->
+    <string name="list60"> 1. We start by creating a list called animals containing five string elements: \'lion\', \'tiger\', \'elephant\', \'giraffe\', and \'zebra\'.</string>
+    <string name="list61"> 2. To remove elements from the list, there are two common methods: remove() and del.</string>
+    <string name="list62"> 3. The remove() method is used when you want to remove a specific element by providing its value as an argument.</string>
+    <string name="list63"> 4. In the code, animals.remove(\'tiger\') removes the element \'tiger\' from the list.</string>
+    <string name="list64"> 5. The del statement is used when you want to remove an element by specifying its index. </string>
+    <string name="list65"> 6. In the code, del animals[2] removes the element at index 2, which is \'elephant\'.</string>
+
+    <string name="list35"> 5. Looping Through a List:</string>     <!-- -->
+    <string name="list66"> 1. We start by creating a list called \'fruits\' containing five string elements: \'apple\', \'banana\', \'orange\', \'grape\', and \'mango\'.</string>
+    <string name="list67"> 2. The \' for \' loop is used to iterate through each element in the list.</string>
+    <string name="list68"> 3.  In this case, the loop variable \'fruit\' will take on the value of each element in the \'fruits\' list, one by one, in each iteration.</string>
+    <string name="list69"> 4. The loop body, indented under the \'for\' statement, executes the code inside it for each element in the list.</string>
+    <string name="list70"> 5. In this example, we simply print the value of the \'fruit\' variable, which corresponds to each \'fruit\' name in the list.</string>
+
+    <string name="list36"> 6. Finding the Length of a List:</string>
+    <string name="list71"> 1 We start by creating a list called numbers containing five integer elements: 1, 2, 3, 4, and 5.</string>
+    <string name="list72"> 2 The \'len()\' function is used to find the length of the list. It takes the list as an argument and returns the number of elements present in the list.</string>
+    <string name="list73"> 3 In the code, we call \'len(numbers)\' to find the length of the numbers list and store the result in the variable length.</string>
+    <string name="list74"> 4 After calculating the length, we print it using the \'print()\' function.</string>
+
+    <string name="list37"> 7. Different types of list slicing in Python:</string>
+    <string name="list75"> 1. Basic List Slicing:</string>
+    <string name="list76"> • In this example, we have a list called numbers containing elements from 1 to 10.</string>
+    <string name="list77"> • The slicing operation numbers[2:5] extracts elements starting from index 2 up to, but not including, index 5.</string>
+    <string name="list82"> •  So, the sliced list will contain elements 3, 4, and 5.</string>
+    <string name="list78"> 2. Slicing with Negative Indices:</string>
+    <string name="list79"> • In this example, we have a list called \'fruits\' containing five elements. </string>
+    <string name="list80"> • The slicing operation fruits[-3:] starts from the third-to-last element (index -3) and goes until the end of the list (not specifying the end index).</string>
+    <string name="list81"> • So, the sliced list will contain the last three elements: \'orange\', \'grape\', and \'mango\'.</string>
+    <string name="list83"> 3. Stepping Through a List:</string>
+    <string name="list84"> • In this example, the slicing operation numbers[::2] starts from the beginning of the list and goes until the end, but with a step of 2.</string>
+    <string name="list85"> •  It skips every other element, resulting in a new list containing only the elements at even indices.</string>
+    <string name="list86"> Note:</string>
+    <string name="list87"> • Slicing is a powerful technique to extract specific parts of a list and create new lists with desired elements.</string>
+    <string name="list88"> • Remember that slicing does not modify the original list; it returns a new list with the selected elements based on the slice criteria.</string>
+
+    <string name="list38"> 8. Checking if an Element Exists in a List:</string>
+    <string name="list89"> • You can check if an element exists in a list using the in keyword in Python.</string>
+    <string name="list90"> • The in keyword is known as a membership operator in Python. </string>
+    <string name="list91"> 1. We start by creating a list called fruits containing five string elements: \'apple\', \'banana\', \'orange\', \'grape\', and \'mango\'.</string>
+    <string name="list92"> 2. The in keyword is used to check if a given element exists in the list.</string>
+    <string name="list93"> 3.  In this example, we want to check if the string \'banana\' is present in the fruits list.</string>
+    <string name="list94"> 4. The if statement evaluates the condition search_item in fruits, which checks if the value of search_item (in this case, \'banana\') exists in the fruits list.</string>
+    <string name="list95"> 5. If the condition is true, it means that \'banana\' is present in the list, and the code inside the if block will be executed. It prints a message indicating that \'banana\' is found in the list.</string>
+    <string name="list96"> 6. If the condition is false, it means that \'banana\' is not present in the list, and the code inside the else block will be executed.</string>
+    <string name="list97"> 6(a).  It prints a message indicating that \'banana\' is not found in the list.</string>
+
+    <string name="list39"> 9. Sorting a List:</string>
+    <string name="list98"> 1. We start by creating a list called numbers containing five integer elements: 5, 2, 8, 1, and 3.</string>
+    <string name="list99"> 2. The \'sort()\' method is used to sort the elements of the list in ascending order.</string>
+    <string name="list100"> • The \'sort()\' method modifies the original list,and does not return a new list.</string>
+    <string name="list101"> • If you want to sort the list without modifying the original list, you can use the built-in sorted() function, which returns a new sorted list. </string>
+    <string name="list102"> •  Here\'s an example using sorted():</string>
+    <string name="list103"> 3. After calling numbers.sort(), the elements in the list will be rearranged so that they are in increasing numerical order.</string>
+    <string name="list104"> 4. The sorted list is then printed using the print() function.</string>
+    <string name="list105"> • The result is the same, but in this case, the original numbers list remains unchanged.</string>
+
+    <string name="list40"> 10. List Comprehension:</string>
+    <string name="list106"> • It allows you to generate a new list by applying an expression to each element of an existing list or other iterable.</string>
+    <string name="list107"> Example 1: Squares of Numbers.</string>
+    <string name="list108"> 1. We start with a list called numbers containing five integer elements: 1, 2, 3, 4, and 5.</string>
+    <string name="list109"> 2. The list comprehension \'[num ** 2 for num in numbers]\' generates a new list called squares.  </string>
+    <string name="list110"> 3. It iterates through each element (num) in the numbers list and computes the square of each number using the expression
+num ** 2.</string>
+    <string name="list111"> 4. The result is a new list squares containing the squares of the original numbers: [1, 4, 9, 16, 25].</string>
+    <string name="list112"> 5. The new list is then printed using the print() function.</string>
+    <string name="list113"> Example 2: Even Numbers.</string>
+    <string name="list114"> 1. In this example, we have a list called numbers containing integers from 1 to 10.</string>
+    <string name="list115"> 2. The list comprehension \'[num for num in numbers if num % 2 == 0]\' generates a new list called \'even_numbers\'.</string>
+    <string name="list116"> 3. t iterates through each element (num) in the numbers list and checks if the number is even (i.e., divisible by 2) using the condition num % 2 == 0.</string>
+    <string name="list117"> 4. If the condition is true, the number is included in the new list \'even_numbers\'.</string>
+    <string name="list118"> 5. The new list contains only the even numbers from the original numbers list: [2, 4, 6, 8, 10].</string>
+
+
+    <string name="listF"> List function</string>
+    <string name="listF1"> What is list function ?</string>
+    <string name="listF2"> • The \'list()\' function is used to create a new list object in Python.</string>
+    <string name="listF3"> • It can be called with an optional argument, which can be any iterable (such as another list, tuple, string, etc.).</string>
+    <string name="listF4"> • The \'list()\' function converts the iterable\'s elements into a new list.</string>
+    <string name="listF5"> • If no argument is provided, an empty list is returned.</string>
+    <string name="listF6"> • Examples of \'list()\' function:</string>
+    <string name="listF7"> Example 1: Converting a tuple to a list.</string>
+    <string name="listF8"> Explanation: </string>
+    <string name="listF9"> 1. In this example, we have a tuple tuple_data containing integers.</string>
+    <string name="listF10"> 2. By using the list() function, we convert the tuple into a new list \'converted_list\', where each element of the tuple becomes an element of the list.</string>
+    <string name="listF11"> Example 2: Converting a string to a list (each character becomes a separate list element).</string>
+    <string name="listF12"> 1. Explanation: Here, we have a string \'string_data\'. Using the list() function, we create a new list converted_list,</string>
+    <string name="listF13"> 2. Where each character of the string becomes an individual element in the list.</string>
+    <string name="listF14"> Example 3: Converting a range to a list.</string>
+    <string name="listF15"> 1. In this example, we have a range object \'range_data\' that represents the numbers from 1 to 5 (inclusive).</string>
+    <string name="listF16"> 2. By using the list() function, we convert the range object into a new list called converted_list.</string>
+    <string name="listF17"> Example 4: Converting a dictionary to a list of keys.</string>
+    <string name="listF18"> 1.  Here, we have a dictionary my_dict. When we use the list() function on the dictionary, it converts the dictionary keys into a new list keys_list.</string>
+    <string name="listF19"> Example 5: Creating an empty list.</string>
+    <string name="listF20"> 1. In this example, we call the list() function without passing any argument. </string>
+    <string name="listF21"> 2. As a result, an empty list is created and assigned to the variable empty_list.</string>
+    <string name="listF22"> Example 6: Converting a set to a list.</string>
+    <string name="listF23"> 1. Here, we have a set \'my_set\' containing some duplicate elements.</string>
+    <string name="listF24"> 2. The list() function converts the set to a new list converted_list,</string>
+    <string name="listF25"> 3. duplicates are automatically removed, resulting in a list with unique elements.</string>
+    <string name="listF26"> Example 7: Converting a string to a list of words.</string>
+    <string name="listF27"> 1. In this example, we have a \'string\' sentence. By using the \'split()\' method, </string>
+    <string name="listF28"> we split the sentence into individual words and then use the \'list()\' function to convert those words into a list.</string>
+    <string name="listF29"> Example 8: Converting a list of numbers as strings to integers</string>
+    <string name="listF30"> 1.  Here, we have a list of strings str_numbers, where each element represents a number.</string>
+    <string name="listF31"> 2. By using the map() function along with int and the list() function, we convert the strings to integers, resulting in a new list int_numbers.</string>
+    <string name="listF32"> Example 9: Combining two lists using the + operator.</string>
+    <string name="listF33"> 1. In this example, we have two lists, list1 and list2.</string>
+    <string name="listF34"> 2. By using the + operator, we concatenate both lists to create a new list combined_list.</string>
+    <string name="listF35"> Example 10: Nested list comprehension to flatten a 2D list.</string>
+
+    <string name="listMe"> List Method</string>
+    <string name="listMe1"> What is list method ?</string>
+    <string name="listMe2"> • In Python, a list method refers to a function that can be used to perform various operations on a list data structure.</string>
+    <string name="listMe3"> •  A list is a mutable, ordered collection of elements, and it is one of the most commonly used data structures in Python.</string>
+    <string name="listMe4"> • List methods allow you to manipulate and modify lists easily.</string>
+    <string name="listMe5"> • Here are some of the commonly used list methods in Python:</string>
+    <string name="listMe6"> 1. append(element): </string>
+    <string name="listMe7"> • Adds an element to the end of the list.</string>
+    <string name="listMe8"> 2. extend(iterable): </string>
+    <string name="listMe9"> • Extends the list by appending elements from the given iterable.</string>
+    <string name="listMe10"> 3. insert(index, element): </string>
+    <string name="listMe11"> • Inserts the element at the specified index in the list.</string>
+    <string name="listMe12"> 4. remove(element): </string>
+    <string name="listMe13"> • Removes the first occurrence of the specified element from the list.</string>
+    <string name="listMe14"> 5. pop(index=-1):</string>
+    <string name="listMe15"> • Removes and returns the element at the specified index. If no index is provided, it removes and returns the last element.</string>
+    <string name="listMe16"> 6. index(element, start=0, end=len(list)): </string>
+    <string name="listMe17"> • Returns the index of the first occurrence of the specified element within the given start and end index (optional).</string>
+    <string name="listMe18"> 7. count(element): </string>
+    <string name="listMe19"> • Returns the number of occurrences of the specified element in the list.</string>
+    <string name="listMe20"> 8. sort(key=None, reverse=False): </string>
+    <string name="listMe21"> •  Sorts the list in ascending order by default, or in descending order if reverse is set to True.</string>
+    <string name="listMe22"> • The key parameter allows you to specify a custom function for sorting.</string>
+    <string name="listMe23"> 9. reverse(): </string>
+    <string name="listMe24"> • Reverses the order of elements in the list.</string>
+    <string name="listMe25"> 10. copy(): </string>
+    <string name="listMe26"> • Returns a shallow copy of the list.</string>
+    <string name="listMe27"> 11. clear(): </string>
+    <string name="listMe28"> • Remove all elements from the list, making it empty.</string>
+    <string name="listMe29"> </string>
+    <string name="listMe30"> Example Code:</string>
+
+
+    <string name="set1"> Set</string>
+    <string name="set2"> What is set ?</string>
+    <string name="set3"> • In Python, a "set" is a built-in data type that represents an unordered collection of unique elements.</string>
+    <string name="set4"> • Important points about sets in Python:</string>
+    <string name="set5"> 2. Unique Elements: </string>
+    <string name="set6"> • Sets contain only unique elements, which means no duplicates are allowed.</string>
+    <string name="set7"> • If you try to add the same element twice to a set, it will only appear once.</string>
+    <string name="set8"> 3. Mutable: </string>
+    <string name="set9"> • Sets are mutable, which means you can add or remove elements after the set is created.</string>
+    <string name="set10"> • This allows you to modify the contents of a set during runtime.</string>
+    <string name="set11"> 4. Unordered: </string>
+    <string name="set12"> • Sets are unordered, which means there is no specific order of elements.</string>
+    <string name="set13"> • When you iterate through a set or print its contents, the elements may appear in a different order each time.</string>
+    <string name="set14"> 5. Set Operations: </string>
+    <string name="set15"> • Sets support various mathematical set operations, such as union, intersection, difference, and symmetric difference.</string>
+    <string name="set16"> •  These operations make it easy to combine, compare, or manipulate sets.</string>
+    <string name="set17"> 1. Declaring Sets: </string>
+    <string name="set18"> • You can create a set using curly braces {} or the built-in set() function.</string>
+    <string name="set19"> • However, if you want to create an empty set, you must use set(), as {} will create an empty dictionary instead.</string>
+    <string name="set20"> 1.Unique Elements:</string>
+    <string name="set21"> Example 1:</string>
+    <string name="set22"> Explanation: </string>
+    <string name="set23"> • In this example, we create a set with elements {1, 2, 3, 4}.</string>
+    <string name="set24"> • When we try to add the element 3 again, it doesn\'t get added because 3 is already present in the set.</string>
+    <string name="set25"> • As a result, the set remains unchanged with no duplicates.</string>
+    <string name="set26"> Example 2:</string>
+    <string name="set27"> • In this example, we create a set using a list with duplicate names.</string>
+    <string name="set28"> • However, when we convert the list to a set, it automatically removes duplicates, and we end up with a set containing unique names.</string>
+    <string name="set29"> 2. Mutable: </string>
+    <string name="set30"> • In this example, we have a set of fruits. We use the add() method to include a new fruit, "grape," into the set.</string>
+    <string name="set31"> • Since sets are mutable, the new element is added, and the order of elements doesn\'t matter.</string>
+    <string name="set32"> • Here, we remove the element 3 from the set numbers using the remove() method.</string>
+    <string name="set33"> • The set is mutable, so the element is successfully removed from the set.</string>
+    <string name="set34"> 3. Unordered: </string>
+    <string name="set35"> •</string>
+    <string name="set36"> • In this example, we define a set of numbers. When we print the set, the elements are displayed in ascending order.</string>
+    <string name="set37"> • However, the order is not the same as when we initially defined the set.</string>
+    <string name="set38"> • This shows that sets don\'t maintain the order of insertion.</string>
+    <string name="set39"> • In this example, we iterate through the set of colors.</string>
+    <string name="set40"> • The order in which the colors are printed may vary due to sets being unordered.</string>
+    <string name="set41"> 4. Set Operations: </string>
+    <string name="set42"> • In this example, we perform a union of set1 and set2, which combines elements from both sets while eliminating duplicates.</string>
+    <string name="set43"> • Here, we find the intersection of set1 and set2, which results in a set containing common elements that appear in both sets.</string>
+    <string name="set44"> 5. Declaring Sets:</string>
+    <string name="set45"> • In this example, we create a set, set1 using curly braces. </string>
+    <string name="set46"> • The elements are enclosed within the braces, and Python automatically recognizes it as a set.</string>
+    <string name="set47"> • Here, we create another se, set2 using the set() function and passing a list of elements to it. </string>
+    <string name="set48"> • The function converts the list into a set, and we get the desired output.</string>
+
+
+    <string name="tuple"> Tuple</string>
+    <string name="tuple1"> What is tuple in Python ?</string>
+    <string name="tuple2"> • A tuple is an ordered collection of elements.</string>
+    <string name="tuple3"> • Defined using parentheses \'()\'.</string>
+    <string name="tuple4"> • Elements can be of different data types.</string>
+    <string name="tuple5"> • Once created, tuples are immutable; their elements cannot be changed.</string>
+    <string name="tuple6"> • Tuples can be used to represent multiple values or return multiple values from a function.</string>
+    <string name="tuple7"> • Access elements using indexing (like lists), starting from index 0.</string>
+    <string name="tuple8"> • Tuple packing: Creating a tuple without parentheses by separating elements with commas.</string>
+    <string name="tuple9"> • Tuple unpacking: Assigning the elements of a tuple to multiple variables in a single line.</string>
+    <string name="tuple10"> Difference between list and tuples:</string>
+    <string name="tuple11"> 1. Syntax: </string>
+    <string name="tuple12"> • A tuple is defined using parentheses (), while a list is defined using square brackets [].</string>
+    <string name="tuple13"> 2. Immutability: </string>
+    <string name="tuple14"> • Tuples are immutable, meaning once created, their elements cannot be changed, added, or removed.</string>
+    <string name="tuple15"> • Lists, on the other hand, are mutable and can be modified after creation.</string>
+    <string name="tuple16"> • Tuples can contain elements of different data types (e.g., integers, strings, floats) and even other data structures, such as other tuples.</string>
+    <string name="tuple17"> 1. Creating a Tuple: </string>
+    <string name="tuple18"> • This code creates a tuple named my_tuple with three elements - an integer, a string, and a float.</string>
+    <string name="tuple19"> •  The elements are enclosed within parentheses and separated by commas.</string>
+    <string name="tuple20"> 2. Accessing Elements:</string>
+    <string name="tuple21"> • Tuples are zero-indexed, which means the first element is at index 0, the second element at index 1, and so on.</string>
+    <string name="tuple22"> • We use square brackets with the index value to access specific elements.</string>
+    <string name="tuple23"> 3. Tuple Length: </string>
+    <string name="tuple24"> • The \'len()\' function returns the number of elements in the tuple, which is 3 in this case.</string>
+    <string name="tuple25"> 4. Tuple Packing and Unpacking:</string>
+    <string name="tuple26"> • Here, we are using tuple packing to create a tuple without parentheses. </string>
+    <string name="tuple27"> • Later, we unpack the elements of the tuple into separate variables a, b, and c.</string>
+    <string name="tuple28"> 5. Nested Tuples:</string>
+    <string name="tuple29"> • Tuples can contain other tuples as elements. In this example, outer_tuple has a nested tuple at index 1. </string>
+    <string name="tuple30"> • We use double indexing to access the element \'hello\' within the nested tuple.</string>
+    <string name="tuple31"> 6. Tuple Concatenation:</string>
+    <string name="tuple32"> • We can concatenate two tuples using the \'+\' operator to create a new tuple containing all the elements from both tuples.</string>
+    <string name="tuple33"> 7. Repeating Elements:</string>
+    <string name="tuple34"> •  The \'*\' operator can be used to repeat the elements of a tuple a specified number of times.</string>
+    <string name="tuple35"> 8. Check for an Element:</string>
+    <string name="tuple36"> • We can use the membership operator \'in\'  to check if an element exists in the tuple. </string>
+    <string name="tuple37"> 9. Iterating over a Tuple:</string>
+    <string name="tuple38"> • We can use a for loop to iterate through each element of the tuple and print its value.</string>
+    <string name="tuple39"> 10. Converting List to Tuple and Vice Versa:</string>
+    <string name="tuple40"> • We can use tuple() to convert a list to a tuple and list() to convert a tuple to a list.</string>
+
+
+    <string name="tupleF"> • Tuple Function</string>
+    <string name="tupleF1"> 1. max()  </string>
+    <string name="tupleF2"> 2. min()  </string>
+    <string name="tupleF3"> 3. len() </string>
+    <string name="tupleF5"> • Python contains the following tuple functions.</string>
+
+    <string name="tupleF6"> • In Python, max() is a built-in function that returns the maximum value from a tuple or any iterable like list. </string><!-- for max()-->
+    <string name="tupleF7"> • The max() function works with tuples that contain elements that can be compared, such as integers, floats, and strings.</string>
+    <string name="tupleF8"> Example 1: Max value from a tuple of integers:</string>
+    <string name="tupleF9"> • In this example, the max() function finds the maximum value (30) in the int_tuple.</string>
+    <string name="tupleF10"> Example 2: Max string from a tuple of strings:</string>
+    <string name="tupleF11"> • In this example, the max() function finds the maximum string ("orange") based on lexicographic order (alphabetical order).</string>
+    <string name="tupleF12"> Example 3: Max value from a tuple of mixed data types:</string>
+    <string name="tupleF13"> •  Elements are of different data types and cannot be directly compared, using max() on such a tuple will raise a TypeError.</string>
+    <string name="tupleF14"> • To use max() with tuples containing mixed data types, you must ensure that the elements are compatible for comparison (e.g., all integers, all strings, etc.).</string>
+
+    <string name="tupleF15"> • In Python, the min() function is a built-in function that returns the minimum value from a tuple (or any iterable).</string><!-- for min()-->
+    <string name="tupleF16"> Example 1: Min value from a tuple of integers:</string>
+    <string name="tupleF17"> • In this example, the min() function finds the minimum value (5) in the int_tuple.</string>
+    <string name="tupleF18"> Example 2: Min string from a tuple of strings:</string>
+    <string name="tupleF19"> • In this example, the min() function finds the minimum string ("apple") based on lexicographic order (alphabetical order).</string>
+    <string name="tupleF20"> Example 3: Min value from a tuple of floating-point numbers:</string>
+    <string name="tupleF21"> • In this example, the min() function finds the minimum floating-point number (1.23) in the float_tuple.</string>
+
+    <string name="tupleF22"> • In Python, the len() function is a built-in function that returns the number of elements in a tuple or any other iterable.</string><!-- for len()-->
+    <string name="tupleF23"> • It is commonly used to find the length of a tuple, list, string, or set.</string>
+    <string name="tupleF24"> Example:</string>
+
+    <string name="tupleF4"> 4. tuple() .</string>
+    <string name="tupleF25"> • In Python, the tuple() function is used to convert an iterable (such as a list, string, or set) into a tuple. </string>
+    <string name="tupleF26"> • It takes an iterable as an argument and returns a new tuple containing the elements of the iterable.</string>
+
+    <string name="dict"> Dictionary</string>
+    <string name="dict1"> What is dictionaries ?</string>
+    <string name="dict2"> • In Python, a dictionary is a built-in data type that allows you to store a collection of key-value pairs. </string>
+    <string name="dict3"> • It is also known as an associative array, hash map, or simply "dict."</string>
+    <string name="dict4"> • Dictionaries are unordered, mutable, and efficient for data retrieval by key.</string>
+    <string name="dict5">  Explanation of dictionaries point by point:</string>
+    <string name="dict6"> 1. Key-Value Pairs:  </string>
+    <string name="dict7"> • A dictionary consists of elements that are stored as key-value pairs.</string>
+    <string name="dict8"> • Each key is unique within the dictionary, and it maps to a specific value.</string>
+    <string name="dict9"> • The key is used to retrieve the corresponding value from the dictionary.</string>
+    <string name="dict10"> 2. Unordered: </string>
+    <string name="dict11"> • Dictionaries are unordered collections, meaning the elements are not stored in any specific order.</string>
+    <string name="dict12"> • Unlike sequences (e.g., lists or tuples), you cannot access elements using an index because there is no inherent order.</string>
+    <string name="dict13"> 3. Mutable: </string>
+    <string name="dict14"> • Dictionaries are mutable, which means you can add, modify, or remove key-value pairs after the dictionary is created.</string>
+    <string name="dict15"> • This dynamic nature allows you to update the data in the dictionary as needed.</string>
+    <string name="dict16"> 4. Syntax: </string>
+    <string name="dict17"> • The syntax for creating a dictionary in Python is by using curly braces {} and separating key-value pairs with colons :.</string>
+    <string name="dict18"> • Example: </string>
+    <string name="dict19"> 1. Basic Key-Value Pair:</string>
+    <string name="dict20"> • In this simple example, the key is "name", and the value is "John Doe".</string>
+    <string name="dict21"> • The dictionary student_info stores information about a student\'s name.</string>
+    <string name="dict22"> 2. Multiple Key-Value Pairs:</string>
+    <string name="dict23"> • This example demonstrates a dictionary with multiple key-value pairs.</string>
+    <string name="dict24"> •  Here, "title", "author", and "pages" are keys, and their corresponding values are "Python Programming", "Guido van Rossum", and 450, respectively.</string>
+    <string name="dict25"> 3. Nested Dictionaries:</string>
+    <string name="dict26"> • In this example, we have a dictionary student containing nested dictionaries. </string>
+    <string name="dict27"> • "contact" is a key, and its value is another dictionary with keys "email" and "phone", storing contact details for the student.</string>
+    <string name="dict28"> 4. Using Variables as Keys: </string>
+    <string name="dict29"> •  This example shows that you can use variables as keys in a dictionary.</string>
+    <string name="dict30"> 5. Dictionary Comprehension:</string>
+    <string name="dict31"> • This is a dictionary comprehension example. </string>
+    <string name="dict32"> • It creates a dictionary numbers where the keys are numbers from 1 to 5, and the corresponding values are the squares of these numbers.</string>
+    <string name="dict33"> 6. Modifying Values:</string>
+    <string name="dict34"> • In this example, we have a dictionary student_grades representing a student\'s subject-wise grades. </string>
+    <string name="dict35"> • The value for the key "Science" is modified from 85 to 88.</string>
+    <string name="dict36"> 7. Removing Key-Value Pairs:</string>
+    <string name="dict37"> • The del statement is used to remove the key-value pair with the key "age" from the employee_data dictionary.</string>
+    <string name="dict38"> Dictionary method:</string>
+    <string name="dict39"> 1. keys(): </string>
+    <string name="dict40"> • Returns a view object that displays a list of all the keys in the dictionary.</string>
+    <string name="dict41"> 2. values(): </string>
+    <string name="dict42"> • Returns a view object that displays a list of all the values in the dictionary.</string>
+    <string name="dict43"> 3. items(): </string>
+    <string name="dict44"> •  Returns a view object that displays a list of tuples, each containing a key-value pair from the dictionary.</string>
+    <string name="dict45"> 4. get(key,[default]):  </string>
+    <string name="dict46"> • If the key is not found, it returns the default value (if provided) or None.</string>
+    <string name="dict47"> 5. pop(key,[default]):  </string>
+    <string name="dict48"> • Removes the key-value pair associated with the specified key and returns the value.</string>
+    <string name="dict49"> • If the key is not found, it returns the default value (if provided) or raises a KeyError.</string>
+    <string name="dict50"> 6. popitem(): </string>
+    <string name="dict51"> •  If the dictionary is empty, it raises a KeyError.</string>
+    <string name="dict52"> 7. clear(): </string>
+    <string name="dict53"> Removes all key-value pairs from the dictionary, making it empty. </string>
+    <string name="dict54"> 8. update(dict2):</string>
+    <string name="dict55"> • Updates the dictionary with the key-value pairs from another dictionary or an iterable of key-value pairs.</string>
+    <string name="dict56"> 9. copy(): </string>
+    <string name="dict57"> • Returns a shallow copy of the dictionary.</string>
+    <string name="dict58"> • Returns the value associated with the specified key.</string> <!-- get -->
+    <string name="dict59"> • Removes and returns an arbitrary key-value pair from the dictionary.</string> <!-- for pop item  -->
+
+    <string name="str"> String</string>
+    <string name="str1"> What is string ?</string>
+    <string name="str2"> • In Python, a string is a sequence of characters enclosed within single quotes (\' \'),double quotes(" "), or triple quotes (\'\'\' \'\'\' or """ """).</string>
+    <string name="str3"> • Strings are used to represent textual data and are one of the fundamental data types in Python.</string>
+    <string name="str4"> Here are some important points about strings in Python:</string>
+    <string name="str5"> 1. String Creation: </string>
+    <string name="str6"> • You can create a string using single, double, or triple quotes.</string>
+    <string name="str7"> • Triple quotes are used for multi-line strings.</string>
+    <string name="str8"> 2. String Indexing: </string>
+    <string name="str9"> • Strings are indexed, and individual characters can be accessed using square brackets [ ].</string>
+    <string name="str10"> 3. String Slicing: </string>
+    <string name="str11"> • You can extract a substring from a string using slicing.</string>
+    <string name="str12"> 4. String Concatenation: </string>
+    <string name="str13"> • You can concatenate strings using the \'+\' operator.</string>
+    <string name="str14"> 5. String Length: </string>
+    <string name="str15"> • The length of a string can be obtained using the len() function.</string>
+    <string name="str16"> 6. String Formatting using f-strings:: </string>
+    <string name="str17"> • Python supports string formatting using different techniques like f-strings, %, and format() method.</string>
+    <string name="str18"> 7. Escape Sequences: </string>
+    <string name="str19"> 8. String Membership Test:</string>
+
+    <string name="str20"> String Method</string>
+    <string name="str21"> What is string method ?</string>
+    <string name="str22"> • String method is a built-in function that can be used to manipulate and perform various operations on strings.</string>
+    <string name="str23"> • String methods are typically called on a string object and allow you to perform various tasks  </string>
+    <string name="str24"> • Like searching, replacing, formatting, converting case, splitting, joining, and more.</string>
+    <string name="str25"> Here are some common string methods in Python:</string>
+    <string name="str26"> 1. len(): </string>
+    <string name="str27"> • Returns the length of the string.</string>
+    <string name="str28"> 2. upper(): </string>
+    <string name="str29"> • Converts all characters to uppercase.</string>
+    <string name="str30"> 3. lower(): </string>
+    <string name="str31"> • Converts all characters to lowercase.</string>
+    <string name="str32"> 4. capitalize(): </string>
+    <string name="str33"> • Converts the first character to uppercase and the rest to lowercase.</string>
+    <string name="str34"> 5. title(): </string>
+    <string name="str35"> • Converts the first character of each word to uppercase.</string>
+    <string name="str36"> 6. strip(): </string>
+    <string name="str37"> • Removes leading and trailing whitespace.</string>
+    <string name="str38"> 7. replace(old, new): </string>
+    <string name="str39"> • Replaces occurrences of the old substring with the new substring.</string>
+    <string name="str40"> 8. find(substring): </string>
+    <string name="str41"> • Returns the index of the first occurrence of the substring, or -1 if not found.</string>
+    <string name="str42"> 9. split(separator): </string>
+    <string name="str43"> • Splits the string into a list of substrings using the specified separator.</string>
+    <string name="str44"> 10.join(iterable): </string>
+    <string name="str45"> • Joins elements of an iterable (e.g., a list) into a single string using the string as a separator.</string>
+    <string name="str46"> 11. startswith(prefix): </string>
+    <string name="str47"> • Checks if the string starts with the specified prefix.</string>
+    <string name="str48"> 12. endswith(suffix): </string>
+    <string name="str49"> • Checks if the string ends with the specified suffix.</string>
+    <string name="str50"> 13. isdigit(): </string>
+    <string name="str51"> • Returns True if all characters in the string are digits.</string>
+    <string name="str52"> 14. isalpha(): </string>
+    <string name="str53"> •  Returns True if all characters in the string are alphabetic (letters).</string>
+    <string name="str54"> 15. isalnum(): </string>
+    <string name="str55"> • Returns True if all characters in the string are alphanumeric (letters or digits).</string>
+    <string name="str56"> 16. isspace(): </string>
+    <string name="str57"> • Returns True if all characters in the string are whitespace.</string>
+    <string name="str58"> 17. isdecimal(): </string>
+    <string name="str59"> • Return True if all characters in the string are decimal digits.</string>
+    <string name="str60"> • Return False otherwise.</string>
+
+    <string name="fun"> Function</string>
+    <string name="fun1"> What is function ? </string>
+    <string name="fun2"> • In Python, a function is a reusable block of code that performs a specific task or a set of related tasks.</string>
+    <string name="fun3"> • Functions are designed to promote code reusability, maintainability, and modularity by encapsulating a piece of code and giving it a name.</string>
+    <string name="fun4"> • Instead of rewriting the same code multiple times, you can define a function once and call it whenever needed.</string>
+    <string name="fun5"> Important points about functions in Python:</string>
+    <string name="fun6"> 1. Function Definition:</string>
+    <string name="fun7"> • To create a function, you use the \'def\' keyword followed by the function name and parentheses.</string>
+    <string name="fun8"> • The function body is indented below the definition.</string>
+    <string name="fun9"> 2. Function Call: </string>
+    <string name="fun10"> • To execute the code inside a \'function\', you need to call the \'function\' using its name followed by parentheses.</string>
+    <string name="fun11"> 3. Parameters and Arguments: </string>
+    <string name="fun12"> • Functions can accept input parameters, allowing you to pass data into the function.</string>
+    <string name="fun13"> • These parameters are specified within the parentheses during function definition.</string>
+    <string name="fun14"> 4. Return Statement: </string>
+    <string name="fun15"> • Functions can return values using the return statement.</string>
+    <string name="fun16"> • When the function is called, the return statement terminates the function execution and sends the specified value back to the caller.</string>
+    <string name="fun17"> 5. Default Arguments:</string>
+    <string name="fun18"> • You can provide default values for function parameters, which are used when the argument is not explicitly provided during function call.</string>
+    <string name="fun19"> 6. Keyword Arguments: </string>
+    <string name="fun20"> •  You can pass arguments to a function using the parameter name as a keyword.</string>
+    <string name="fun21"> 7. Lambda Functions (Anonymous Functions): </string>
+    <string name="fun22"> • Python supports lambda functions, which are small, inline functions without a name.</string>
+    <string name="fun23"> • They are typically used for simple, one-liner operations.</string>
+    <string name="fun24"> 8. Recursion: </string>
+    <string name="fun25"> • Functions calling itself is known as recursion.</string>
+    <string name="fun26"> • This allows you to solve complex problems by breaking them down into smaller subproblems.</string>
+    <string name="fun27"> 9. *args and **kwargs:</string>
+    <string name="fun28"> • Python allows you to pass a variable number of arguments to a function using *args and **kwargs.</string>
+    <string name="fun29"> • The *args parameter represents non-keyword variable-length arguments, and **kwargs represents keyword variable-length arguments.</string>
+    <string name="fun30"> 10. Nested Functions (Function within a Function):</string>
+    <string name="fun31"> •  Python allows you to define functions inside other functions. </string>
+    <string name="fun32"> • he inner function can access variables from the outer function, creating closures.</string>
+    <string name="fun33"> 11. Global and Local Variables:  </string>
+    <string name="fun34"> • Variables defined outside of any function have a global scope and can be accessed throughout the program.</string>
+    <string name="fun35"> • Variables defined inside a function have a local scope and are accessible only within that function.</string>
+    <string name="fun36"> • To modify a global variable from within a function, you need to use the global keyword.</string>
+
+    <string name="math"> Math Function</string>
+    <string name="math1"> • In Python, a math function is a built-in function or method provided by the \'math\' module to perform various mathematical operations. </string>
+    <string name="math2"> • The math module provides a wide range of functions for tasks like basic arithmetic, trigonometry, logarithms, exponentials, and more.</string>
+    <string name="math3"> • To use the \'math\' module, you need to import it first. Here\'s how you can do it:</string>
+    <string name="math4"> Math functions available in Python: </string>
+    <string name="math5"> 1. Trigonometric functions: </string>
+    <string name="math6"> i. math.sin(x):</string>
+    <string name="math7"> • In Python\'s math module, the math.sin(x) function returns the sine value of x, where x is in radians. </string>
+    <string name="math8"> ii. math.cos(x):</string>
+    <string name="math9"> •It returns the cosine of the angle x, where x is in radians.</string>
+    <string name="math10"> iii. math.tan(x):</string>
+    <string name="math11"> iv. math.asin(x): </string>
+    <string name="math12"> • It is also known as the inverse sine function. </string>
+    <string name="math13"> v. math.acos(x):</string>
+    <string name="math14"> vi. math.atan(x):</string>
+    <string name="math15"> 2. Exponential and logarithmic functions: </string>
+    <string name="math16"> i. math.exp(x): </string>
+    <string name="math17"> • Returns the exponential value of x.</string>
+    <string name="math18"> ii. math.log(x): </string>
+    <string name="math19"> • Returns the natural logarithm (base e) of x.</string>
+    <string name="math20"> iii. math.log10(x): </string>
+    <string name="math21"> • Returns the base-10 logarithm of x.</string>
+    <string name="math22"> 3. Other functions:</string>
+    <string name="math23"> i. math.sqrt(x):</string>
+    <string name="math24"> • Returns the square root of x.</string>
+    <string name="math25"> ii. math.floor(x):</string>
+    <string name="math26"> •  Returns the largest integer less than or equal to x.</string>
+    <string name="math27"> iii. math.ceil(x): </string>
+    <string name="math28"> • Returns the smallest integer greater than or equal to x.</string>
+    <string name="math29"> iv. math.abs(x):</string>
+    <string name="math30"> • Returns the absolute value of x.</string>
+    <string name="math31"> v. math.factorial(x):</string>
+    <string name="math32"> •  Returns the factorial of x.</string>
+
+
+    <!-- henceforth oop in pyathon-->
+
+    <string name="course">Course Title: Object-Oriented Programming in Python</string>
+
+    <string name="oop"> OOP in Python</string>
+    <string name="button"> 1.Class</string>
+    <string name="button11"> 2.Object</string>
+    <string name="button2"> 4.Encapsulation</string>
+    <string name="button3"> 5.Inheritance</string>
+    <string name="button4"> 6.Polymorphism</string>
+    <string name="button5"> 7.Data Abstraction</string>
+    <string name="button6"> 3.Constructor</string>
+    <string name="oop1">What is OOP and why it is important ?</string>
+    <string name="oop2">• Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects.</string>
+    <string name="oop3">• In OOP, the focus is on creating reusable and modular code by encapsulating data (attributes) and behavior (methods) together within objects.</string>
+    <string name="oop4">• OOP offers a more intuitive way to model and solve complex problems by mirroring real-world scenarios and relationships between entities.</string>
+    <string name="oop5"> Importance of OOP:</string>
+    <string name="oop6"> 1. Modularity and Reusability: </string>
+    <string name="oop7"> • OOP promotes the creation of modular code, where each object encapsulates its functionality.</string>
+    <string name="oop8"> •  These objects can be reused in different parts of the program or in other projects, saving development time and effort.</string>
+    <string name="oop9"> 2. Code Organization:</string>
+    <string name="oop10"> • OOP allows developers to model real-world entities and their relationships, making the codebase more organized and easier to understand, especially for large projects.</string>
+    <string name="oop11"> 3. Ease of Maintenance:</string>
+    <string name="oop12"> •  Encapsulation and abstraction reduce code complexity, making it easier to maintain and update the code without affecting other parts of the program.</string>
+    <string name="oop13"> 4. Flexibility and Extensibility:</string>
+    <string name="oop14"> • Inheritance and polymorphism allow for flexible and extensible code.</string>
+    <string name="oop15"> • New features can be added by creating new classes or modifying existing ones without impacting the entire codebase.</string>
+    <string name="oop16"> 5. Collaborative Development:</string>
+    <string name="oop17"> • OOP\'s modular nature and clear separation of concerns facilitate teamwork.</string>
+
+    <string name="class1">Class</string>
+    <string name="class2"> What is class ?</string>
+    <string name="class3"> • A class is a fundamental concept in object-oriented programming (OOP).</string>
+    <string name="class4"> • It serves as a blueprint or template to create objects, which are instances of the class.</string>
+    <string name="class5"> • A class defines the properties (attributes) and behaviors (methods) that the objects of that class will have.</string>
+    <string name="class6"> • It allows you to create a user-defined data type with its own characteristics and functionalities.</string>
+    <string name="class7"> Important points about classes in Python:</string>
+    <string name="class8">• Classes are defined using the class keyword followed by the class name.</string>
+    <string name="class9">• The class body contains attributes (variables) and methods (functions) that define the behavior of objects created from the class.</string>
+    <string name="class10"> • Object Creation:</string>
+    <string name="class11"> • Objects are instances of classes, and they are created using the class name followed by parentheses.</string>
+    <string name="class12">  For example: </string>
+    <string name="class13"> • object_name = ClassName()</string>
+    <string name="class14"> Attributes and methods:</string>
+    <string name="class15">1. Attributes: </string>
+    <string name="class16"> • Attributes are variables that hold data and represent the state of an object.</string>
+    <string name="class18"> • They define the characteristics or properties of objects.</string>
+    <string name="class19"> • Each object created from a class can have its own set of attribute values.</string>
+    <string name="class20"> 2.  Methods:</string>
+    <string name="class21"> • </string>
+    <string name="class22"> • Methods are functions defined inside a class that define the behavior of objects.</string>
+    <string name="class23"> • Methods can access and manipulate the attributes of the class.</string>
+    <string name="class24"> • In Python, methods are defined within the class and are called using the dot notation </string>
+    <string name="class25"> Creating a simple Python class</string>
+
+
+    <string name="obj"> Object </string>
+    <string name="obj1"> What is object ?</string>
+    <string name="obj2"> • In Python, an object is an instance of a class, and a class is a blueprint for creating objects.</string>
+    <string name="obj3"> • It defines the structure and behavior of objects that belong to it.</string>
+    <string name="obj4"> • When you create an instance of a class, you\'re creating an object that follows the rules defined in the class.</string>
+    <string name="obj5"> Examples with explanations and outputs:</string>
+    <string name="obj6"> Example 1: Simple Class with Attributes.</string>
+    <string name="obj7"> • We defined a class called \'Car\' with attributes \'make\', \'model\', and \'year\'.</string>
+    <string name="obj8"> • We created an instance called \'my_car\' with the given values. </string>
+    <string name="obj9"> • Accessing \'my_car.make\' gives us the output "Toyota".</string>
+    <string name="obj10"> Example 2: Class with Method</string>
+    <string name="obj11"> • We created a class \'Circle\' with a method \'area()\' that calculates the area of the circle.</string>
+    <string name="obj12"> • We created an instance \'my_circle\' with a radius of 5 and called the \'area()\' method to get the output "78.5".</string>
+    <string name="obj13"> Example 3: Class with Class Variable</string>
+    <string name="obj14"> • We created a class \'Student\' with a class variable \'count\'.</string>
+    <string name="obj15"> • The variable,count keeps track of the number of student objects created.</string>
+    <string name="obj16"> • Each time we create a new student object, the count is incremented.</string>
+    <string name="obj17"> Example 4: Class with a Private Attribute</string>
+    <string name="obj18"> • We created a class \'BankAccount\' with private attributes \'__account_number\' and \'__balance\'. </string>
+    <string name="obj19"> • Class methods are bound to the class, not instances, and can be called directly on the class itself.</string>
+    <string name="obj20"> • Private attributes are not accessible directly outside the class; they can only be accessed through getter and setter methods.</string>
+    <string name="obj21"> Types of method:</string>
+    <string name="obj22"> 1. Instance Methods:</string>
+    <string name="obj23"> • Instance methods are the most common type of methods in Python classes. </string>
+    <string name="obj24"> • They operate on the instance of the class and can access and modify the instance attributes.</string>
+    <string name="obj25"> • They always take the instance itself (usually named \'self\') as the first parameter.</string>
+    <string name="obj26"> • We defined a class Rectangle with two instance methods: area() and perimeter().</string>
+    <string name="obj27"> • These methods take the instance (rect) as their first parameter (self) and use its attributes (width and height) to calculate the area and perimeter.</string>
+    <string name="obj28"> 2. Class Methods:</string>
+    <string name="obj30"> • Class methods are marked with  \'@classmethod\' decorator and operate on the class itself rather than the instance.</string>
+    <string name="obj31"> • They take the class as the first parameter (usually named cls) instead of the instance.</string>
+    <string name="obj32"> • Class methods are used when you want to perform operations that are related to the class but do not require access to the instance attributes.</string>
+    <string name="obj33"> • We defined a class MathUtils with a class method add(). We can call the add() method directly on the class itself without creating an instance of the class. </string>
+    <string name="obj34"> • The method takes two parameters a and b and returns their sum.</string>
+
+    <string name="cons"> Constructor</string>
+    <string name="cons1"> What is constructor ?</string>
+    <string name="cons2"> • In Python, a constructor is a special method used to initialize the object when it is created from a class.</string>
+    <string name="cons3"> • It is also known as the \'__init__()\' method.</string>
+    <string name="cons4"> • The constructor is automatically called when an object is instantiated (created) from the class.</string>
+    <string name="cons5"> • The constructor is defined inside the class </string>
+    <string name="cons6"> • vary important —> constructor takes \'self\' parameter as its first argument, which refers to the instance of the object being created.</string>
+    <string name="cons7"> Here\'s a basic example of a constructor in Python:</string>
+    <string name="cons8"> • In this example, the constructor __init__() is used to set the attributes attribute1 and attribute2 of the object obj when it is created. </string>
+    <string name="cons9"> • The constructor is automatically called when the object is created with the MyClass("Hello", 42) statement.</string>
+    <string name="cons10"> </string>
+    <string name="cons11"> Types of constructor:</string>
+    <string name="cons12"> 1.Default Constructor:</string>
+    <string name="cons13"> • A default constructor is a constructor with no parameters defined explicitly in the class. </string>
+    <string name="cons14"> • It is automatically created by Python if no constructor is explicitly defined. </string>
+    <string name="cons15"> • The default constructor doesn\'t take any arguments other than the implicit \'self\' parameter.</string>
+    <string name="cons16"> • In this example,the class \'DefaultConstructorExample\' has a default constructor with no parameters. </string>
+    <string name="cons17"> • When we create an object \'obj\' using DefaultConstructorExample(), the default constructor is automatically called. </string>
+    <string name="cons18"> • It initializes the message attribute with the given value. </string>
+    <string name="cons19"> 2. Non-Parameterized Constructor:</string>
+    <string name="cons20"> • A non-parameterized constructor is a constructor that takes no explicit parameters.</string>
+    <string name="cons21"> • In this example,the class NonParameterizedConstructorExample has a non-parameterized constructor that doesn\'t take any explicit parameters.</string>
+    <string name="cons22"> 3. Parameterized Constructor:</string>
+    <string name="cons23"> • A parameterized constructor is a constructor that takes explicit parameters.</string>
+    <string name="cons24"> • These parameters can be used to initialize the attributes of the object based on the provided values.</string>
+    <string name="cons25"> • In this example,the class \'ParameterizedConstructorExample\' has a parameterized constructor that takes \'name\' and \'age\' as explicit parameters.</string>
+    <string name="cons26"> • Inside the constructor, these parameters are used to initialize the name and age attributes of the object.</string>
+    <string name="cons27"> • When we create an object \'obj\' using ParameterizedConstructorExample("John Doe", 30 ).</string>
+    <string name="cons28"> the constructor is automatically called, and it sets the name and age attributes with the provided values.</string>
+    <string name="cons29"> Examples:</string>
+    <string name="cons30"> •1. Basic constructor with one parameter:</string>
+    <string name="cons31"> • This constructor takes one parameter value and assigns it to the instance variable attribute. </string>
+    <string name="cons32"> • When an object is created with MyClass("Hello"), it sets the attribute of the object to "Hello."</string>
+    <string name="cons33"> 2. Constructor with multiple parameters:</string>
+    <string name="cons34"> • The constructor __init__() accepts two parameters x and y, which represent the x and y coordinates of a Point object.</string>
+    <string name="cons35"> • It initializes the object\'s x_coord and y_coord attributes with the provided values.</string>
+    <string name="cons36"> 3. Constructor with default parameter values:</string>
+    <string name="cons37"> • This constructor has a default parameter radius=1.</string>
+    <string name="cons38"> • If no argument is provided during object creation, the default value is used. </string>
+    <string name="cons39"> • If an argument is provided, it sets the radius attribute to the given value.</string>
+    <string name="cons40"> 4. Constructor with instance method call:</string>
+    <string name="cons41"> • The constructor sets the make and model attributes of the Car object, </string>
+    <string name="cons42"> • The instance method get_info() returns a formatted string with the car\'s make and model.</string>
+    <string name="cons43"> 5. Constructor with class variable:</string>
+    <string name="cons44"> • The constructor sets the name attribute of each Dog object, while the class variable breed remains the same for all instances.</string>
+
+    <string name="cons45"> Inheritance</string>
+    <string name="cons46">  What is inheritance ?</string>
+    <string name="cons47"> • Inheritance in Python is a powerful object-oriented programming concept that allows you to create a \'new class\' that inherits the properties (attributes and methods) of an \'existing class\'.</string>
+    <string name="cons48"> here new class is called \'child class\' or \'derived class\' or \'sub class\'</string>
+    <string name="cons49"> and existing class called \'parent class\' or \'super class\'.</string>
+    <string name="cons50"> • Inheritance in python is a mechanism in which one object acquires all the properties and behaviors of a parent object.</string>
+    <string name="cons51"> • It is an important part of OOPs (Object Oriented programming system).</string>
+    <string name="cons52"> • When you inherit from an existing class, you can reuse methods and fields of the parent class.</string>
+    <string name="cons53"> • Moreover, you can add new methods and fields in your current class also.</string>
+    <string name="cons54"> Syntax</string>
+    <string name="cons55"> Examples</string>
+    <string name="cons56"> Example 11: Python Inheritance</string>
+    <string name="cons57"> Example 1: Simple Inheritance</string>
+    <string name="cons58"> Example 2: Multiple Inheritance</string>
+    <string name="cons59"> Example 3: Using super()</string>
+    <string name="cons60"> Example 4: Method Overriding</string>
+    <string name="cons61"> Example 5: Hierarchical Inheritance</string>
+    <string name="cons62"> Method Overloading:</string>
+    <string name="cons63"> What is method overloading ?</string>
+    <string name="cons64"> Example 1 - Method Overloading using Default Arguments:</string>
+    <string name="cons65"> Method Overriding Examples:</string>
+    <string name="cons66"> Example 1 - Overriding a Parent Class Method in a Subclass:</string>
+    <string name="cons67"> Example 2 - Overriding Method Using super():</string>
+    <string name="cons68"> Example 3 - Overriding Built-in Method:</string>
+    <string name="cons69"> Example 3 - Overriding a Method in a Subclass to Modify Behavior:</string>
+    <string name="cons70"> Example 4 - Overriding Special Methods (Magic Methods):</string>
+    <string name="cons71"> Example 1 - Single Inheritance:</string>
+    <string name="cons72"> Example 2 - Single Inheritance with Additional Methods:</string>
+    <string name="cons73"> Example 1 - Multiple Inheritance:</string>
+    <string name="cons74"> Example 2 - Multiple Inheritance with Method Overriding:</string>
+    <string name="cons75"> Example 1- Multilevel Inheritance:</string>
+    <string name="cons76"> Example - Hierarchical Inheritance:</string>
+    <string name="cons77"> Example - Hybrid Inheritance:</string>
+
+    <string name="ens"> Encapsulation</string>
+    <string name="ens1"> Polymorphism</string>
+    <string name="ens2"> Examples Code:</string>
+    <string name="ens3"> 1. Polymorphic Function for Addition:</string>
+    <string name="ens4"> 2. Polymorphic Function for Area Calculation:</string>
+    <string name="ens5"> 3. Polymorphic Method Overriding:</string>
+    <string name="ens6"> 4. Polymorphic Function for Display:</string>
+    <string name="ens7"> 5. Polymorphic Function for Area Calculation (Using Polymorphic Method Overloading):</string>
+    <string name="ens8"> 6. Polymorphic Function for Sorting:</string>
+    <string name="ens9"> 7. Polymorphic Function for Drawing Shapes:</string>
+    <string name="ens10"> 8. Polymorphic Function for Area Calculation (Using function annotations):</string>
+    <string name="ens11"> 9. Polymorphic Function with Default Argument:</string>
+
+    <string name="data">Data Abstraction</string>
+    <string name="data1"> Example 1: Basic Class with Encapsulation</string>
+    <string name="data2"> Example 2: Abstraction with Abstract Base Class (ABC)</string>
+    <string name="data3"> Example 3: Abstract Class with Concrete Methods</string>
+    <string name="data4"> Example 4: Encapsulation with Private Method</string>
+    <string name="data5"> Example 5: Interface-like Abstraction with Multiple Inheritance</string>
+    <string name="data6"> Example 6: Abstract Base Class with Properties</string>
+    <string name="data7"> Example 7: Data Abstraction in Functionality</string>
+    <string name="data9"> Example 8: File Handling Abstraction</string>
+    <string name="data10"> Example 9: Data Validation Abstraction</string>
+    <string name="data11"> Example 10: Network Communication Abstraction</string>
+    <string name="data12"> obj = MyClass()</string>
+
+    <string name="objj"> Example 1: Simple Class</string>
+    <string name="objj1"> Example 2: Class with Attributes</string>
+    <string name="objj2"> Example 3: Class with Methods</string>
+    <string name="objj3"> Example 4: Class with Class Variable</string>
+    <string name="objj4"> Example 1: Simple Object</string>
+    <string name="objj5"> Example 2: Object with Method</string>
+    <string name="objj6"> Example 3: Multiple Objects</string>
+    <string name="objj7"> </string>
+    <string name="objj8"> </string>
+
+    <string name="python">Python Programs</string>
+    <string name="python2">1. if else statement</string>
+    <string name="python3"> if else ladder</string>
+    <string name="python4">2. Nested if</string>
+    <string name="python5">3. rang() function</string>
+    <string name="python6">4. for loop</string>
+    <string name="python7">5. while loop </string>
+    <string name="python8">6. list</string>
+    <string name="python9">7. list function</string>
+    <string name="python10">8. set</string>
+    <string name="python11">8. tuple</string>
+    <string name="python12">9. dict</string>
+    <string name="python13">10. function</string>
+    <string name="python14">11. math function</string>
+
+    <string name="ifElse"> Example1: Check if a number is positive or negative.</string>
+    <string name="ifElse1"> Example2: Check if a number is even or odd.</string>
+    <string name="ifElse2"> Example3: Determine the greater of two numbers.</string>
+    <string name="ifElse3"> Example4: Check if a character is a vowel or consonant.</string>
+    <string name="ifElse5"> Example5: Check if a year is a leap year or not.</string>
+    <string name="ifElse6"> Example6: Find the largest of three numbers.</string>
+    <string name="ifElse7"> Example7: Check if a string is palindrome or not.</string>
+    <string name="ifElse8"> Example8: Determine the grade based on the percentage.</string>
+    <string name="ifElse9"> Example9: Check if a year is a century year or not.</string>
+    <string name="ifElse10"> Example10: Determine if a triangle is equilateral, isosceles, or scalene.</string>
+    <string name="ifElse11"> Example11: Check if a number is prime or not.</string>
+    <string name="ifElse12"> Example12: Find the largest of four numbers using nested if-else.</string>
+    <string name="ifElse13"> Example13: Check if a number is a perfect square.</string>
+    <string name="ifElse14"> Example14: Determine the ticket price based on age.</string>
+    <string name="ifElse15"> Example15: Check if a given number is within a specified range.</string>
+    <string name="ifElse17"> Example16: Check if a string contains only digits.</string>
+    <string name="ifElse18"> Example17: Determine the type of a triangle based on its angles.</string>
+    <string name="ifElse20"> Example18: Determine the sign of the product of three numbers.</string>
+    <string name="ifElse21"> Example21: Validate a password based on certain criteria.</string>
+    <string name="ifElse22"> Example22: Find the roots of a quadratic equation.</string>
+    <string name="ifElse23"> Example23: Implement a basic calculator with multiple operations.</string>
+    <string name="ifElse24"> Example24: Implement a program to print a pattern using nested if-else.</string>
+    <string name="ifElse25"> Example25: Check if a year is a leap year and find the next leap year.</string>
+    <string name="ifElse26"> Example26: Determine the season based on the month entered.</string>
+    <string name="ifElse27"> Example27: Implement a simple game to guess a random number.</string>
+    <string name="ifElse28"> Example28: Check if a number is a Smith number.</string>
+    <string name="ifElse29"> Example29: Implement a simple Tic-Tac-Toe game.</string>
+    <string name="ifElse30"> 1. Create a program that checks if a given year is a leap year or not.</string>
+    <string name="ifElse31"> 2. Write a Python program to determine the largest of three numbers using nested if statements.</string>
+    <string name="ifElse32"> 3. Write a Python program that determines if a given character is an uppercase letter, lowercase letter, or a digit.</string>
+    <string name="ifElse33"> 4. Create a program that checks if a given number is even and, if so, whether it is divisible by 4.</string>
+    <string name="ifElse34"> 5. Write a Python program that takes three numbers as input and finds the second-largest number using nested if statements.</string>
+    <string name="ifElse35"> 6. Create a program that calculates the income tax for a person based on their annual income using nested if statements.</string>
+    <string name="ifElse36"> 7. Write a Python program that checks if a given number is a perfect square.</string>
+    <string name="ifElse37"> 8. Write a Python program that takes three integers as input and sorts them in ascending order using nested if statements.</string>
+    <string name="ifElse38"> 9. Create a program that simulates a simple calculator with the following operations: addition, subtraction, multiplication, and division.</string>
+    <string name="ifElse39"> 10. Write a Python program that checks if a given number is a prime number or not.</string>
+    <string name="ifElse40"> </string>
+
+    <string name="rangep">  1. Basic range function:</string>
+    <string name="rangep1"> 2.Custom start and end range with step:</string>
+    <string name="rangep2"> 3. Negative step range:</string>
+    <string name="rangep3"> 4. Creating a list using range:</string>
+    <string name="rangep4"> 5. Multiple ranges in a loop:</string>
+    <string name="rangep5"> 6. Using range with a negative start and end:</string>
+
+    <string name="forP"> 1. Fibonacci Series:</string>
+    <string name="forP1"> 2. Factorial Calculation</string>
+    <string name="forP2"> 3. Prime Numbers in a Range</string>
+    <string name="forP3"> 4. Palindrome Check</string>
+    <string name="forP4"> 5. Sum of Digits</string>
+    <string name="forP5">6. Pascal\'s Triangle</string>
+    <string name="forP6"> 7. Binary to Decimal Conversion</string>
+    <string name="forP7"> 9. Reversed String</string>
+    <string name="forP8"> 8. Print Triangle Pattern</string>
+    <string name="forP9"> 10. Skip Odd Numbers:</string>
+    <string name="forP10"> 11. Find Prime Numbers:</string>
+    <string name="forP11"> 12. Skip Even Numbers in a 2D List:</string>
+    <string name="forP18"> for loop</string>
+
+    <string name="whileP"> while loop </string>
+    <string name="whileP1"> 1.Counting from 1 to 5: </string>
+    <string name="whileP2"> 2.Sum of numbers from 1 to n:</string>
+    <string name="whileP3"> 3.Reversing a string:</string>
+    <string name="whileP4"> 4.Guessing game</string>
+    <string name="whileP5"> 5.Password validation:</string>
+    <string name="whileP6"> 6.Fibonacci Sequence:</string>
+    <string name="whileP7"> 7.Factorial Calculation:</string>
+    <string name="whileP8"> 8.Collatz Conjecture:</string>
+    <string name="whileP9"> 9.Prime Number Verification:</string>
+    <string name="whileP10"> 10.Password Attempts:</string>
+    <string name="whileP11"> 11.Newton-Raphson Method for Square Root:</string>
+    <string name="whilep12">12.Binary Search Algorithm:</string>
+    <string name="whilep13">13.Number Guessing Game with User Hints:</string>
+    <string name="whilep14">14.Prime Number Generator:</string>
+
+    <string name="listP"> 1. Filtering even numbers from a list</string>
+    <string name="listP1"> 2. Counting the occurrences of a specific element in a list</string>
+    <string name="listP2"> 3. Checking if all elements in a list are positive</string>
+    <string name="listP3">4. Combining two lists and removing duplicates</string>
+    <string name="listP4"> 5. Splitting a list into sublists based on a condition</string>
+    <string name="listP5"> 6. Sum of List Elements</string>
+    <string name="listP6"> 7. Count Even Numbers</string>
+    <string name="listP7"> 8.  Square of Elements</string>
+    <string name="listP8"> 9. Find Maximum Element</string>
+    <string name="listP9"> 10. Remove Duplicates</string>
+    <string name="listP10"> 11. Convert List to Uppercase</string>
+    <string name="listP11"> 12. Calculate Element Frequency</string>
+    <string name="listP12"> list</string>
+    <string name="listP13">list function</string>
+    <string name="listP14"> 1. Accessing Single Element:</string>
+    <string name="listP15"> 6. Nested List and Dict Example</string>
+    <string name="listP16"> 5. Nested List of Integers</string>
+    <string name="listP17"> </string>
+    <string name="listP18"> Nested List of Mixed Data Types</string>
+    <string name="listP19"> 2. Accessing elements by negative index</string>
+    <string name="listP20"> 3. Slicing a List:</string>
+    <string name="listP21"> 4. Accessing Multiple Elements with Step Size:</string>
+    <string name="listP22"> 7. Modifying a List:</string>
+    <string name="listP23"> 8.  Generating a list of squares of numbers from 1 to 5.</string>
+    <string name="listP24"> 9. Creating a list of even numbers from a given list.</string>
+    <string name="listP25"> 10. Converting a list of strings to uppercase.</string>
+    <string name="listP26"> set</string>
+
+    <string name="listP27">1. Unpacking a Tuple:</string>
+    <string name="listP28">2. Merging Multiple Tuples:</string>
+    <string name="listP29">3.Nested Tuples:</string>
+    <string name="listP30">4.Tuple Slicing:</string>
+    <string name="listP31">5.Index of an Element:</string>
+    <string name="listP32">6.Nested Tuple Unpacking:</string>
+    <string name="listP33">7.Using zip() to Pair Elements from Two Tuples:</string>
+    <string name="listP34">8. Two-level Nested Tuple</string>
+    <string name="listP35">tuple</string>
+    <string name="listP36"> Learn Python</string>
+    <string name="listP37"> Settings</string>
+    <string name="listP38"> Log Out</string>
+    <string name="listP39"> Home</string>
+
+    <string name="OpenDrawer">Open Drawer</string>
+    <string name="CloseDrawer">Close Drawer</string>
+    <string name="created">Created</string>
+    <string name="created1">Created by Abraham</string>
+    <!-- for banner ads-->
+    <string name="app_id">ca-app-pub-1186461984348395~6196232244</string>
+    <string name="banner_ad_unit">ca-app-pub-1186461984348395/5605468633</string>
+    <string name="interstitial_ad_unit">ca-app-pub-1186461984348395/1890472958</string>
+
+</resources>

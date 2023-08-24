@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1F6B9"
+    android:orientation="vertical"
+    tools:context=".Lists">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#15ABEE"
+        android:textStyle="italic"
+        android:textScaleX="1.1"
+        android:text="@string/list"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/list1"
+                        android:textSize="28sp"
+                        android:layout_margin="7sp"
+                        android:textStyle="italic"
+                        android:background="#B8BBB9"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:background="@color/white"
+                        android:text="@string/list2"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:background="@color/white"
+                        android:text="@string/list3"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7sp"
+                        android:background="@color/white"
+                        android:text="@string/list4"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#84FFFF">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list5"
+                            android:textSize="24sp"
+                            android:layout_margin="10sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#F6DDD5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list6"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list7"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list8"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D3D4D4">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list9"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list10"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list11"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#EBF8E1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list12"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list13"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list14"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#EDC8F4">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list15"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list16"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list17"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4EEF2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list18"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list19"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list20"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#B2DAD5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list21"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list22"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list23"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#C0DCEE">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list25"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list26"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#E1ECF9">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list27"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list28"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list29"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7sp"
+                            android:text="@string/list30"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list31"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/list1"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list42"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list43"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list44"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list45"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list46"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list47"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list48"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list32"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/list2"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list50"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list51"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list52"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list53"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list54"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list55"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list33"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/list3"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list56"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list57"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list58"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list59"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list34"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/list4"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list60"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list61"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list62"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list63"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list64"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list65"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:background="#E4E3E3"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list35"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="239dp"
+                        android:src="@drawable/list5" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list66"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list67"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list68"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list69"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list70"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list36"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="239dp"
+                        android:src="@drawable/list6" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list71"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list72"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list73"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list74"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list37"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:background="#D4F9F1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list75"
+                                android:padding="5sp"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:background="#94ECF6"
+                                android:textScaleX="1.1"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/slicing1" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#BAFCEC"
+                                android:text="@string/list41"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:padding="5sp"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list76"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#E4E3E3"
+                                android:padding="5sp"
+                                android:textAlignment="textStart"
+                                android:text="@string/list77"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list82"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list78"
+                                android:padding="5sp"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:background="#B4B6B6"
+                                android:textScaleX="1.1"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/slicing2" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#BAFCEC"
+                                android:text="@string/list41"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:padding="5sp"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list79"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#E4E3E3"
+                                android:padding="5sp"
+                                android:textAlignment="textStart"
+                                android:text="@string/list80"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list81"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list83"
+                                android:padding="5sp"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:background="#BCE2F9"
+                                android:textScaleX="1.1"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/slicing3" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#BAFCEC"
+                                android:text="@string/list41"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:padding="5sp"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list84"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#E4E3E3"
+                                android:padding="5sp"
+                                android:textAlignment="textStart"
+                                android:text="@string/list85"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list86"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list87"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/list88"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:padding="5sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list38"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CCD1CE"
+                        android:text="@string/list89"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CCD1CE"
+                        android:text="@string/list90"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="207dp"
+                        android:src="@drawable/list8" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list91"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list92"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list93"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list94"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list95"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list96"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:background="#E4E3E3"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list97"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list39"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="207dp"
+                        android:src="@drawable/list9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list98"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list99"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list103"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list104"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list100"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list101"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:background="#E4E3E3"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list102"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="219dp"
+                            android:src="@drawable/list91" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list105"
+                            android:padding="5sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E7FCF0"
+                        android:text="@string/list40"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CCD1CE"
+                        android:text="@string/list106"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#C0EEE3"
+                        android:text="@string/list107"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="239dp"
+                        android:src="@drawable/list101" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list108"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list109"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list110"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list111"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list112"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#C0EEE3"
+                        android:text="@string/list113"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="239dp"
+                        android:src="@drawable/list102" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D4F9F1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BAFCEC"
+                            android:text="@string/list41"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list114"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:padding="5sp"
+                            android:textAlignment="textStart"
+                            android:text="@string/list115"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list116"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/list117"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E4E3E3"
+                            android:text="@string/list118"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

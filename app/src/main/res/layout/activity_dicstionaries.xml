@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#348673"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dicstionaries">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="#7BA6EE"
+        android:textStyle="italic"
+        android:textScaleX="1.1"
+        android:text="@string/dict"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C4E6F4"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict1"
+                        android:textSize="25sp"
+                        android:padding="5sp"
+                        android:textStyle="italic"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E6F5F5"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/dict2"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="25sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/dict3"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="25sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/dict4"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="25sp"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="-12sp"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BCF6FF"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict5"
+                        android:textSize="25sp"
+                        android:background="#BCF6FF"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E3F6F9"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict6"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:layout_marginTop="7sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict7"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict8"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict9"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CDF2ED"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict10"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:layout_marginTop="7sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict11"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict12"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E2F5F8"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict13"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:layout_marginTop="7sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict14"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict15"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#DBF8F4"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict16"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:layout_marginTop="7sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict17"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict18"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="-12sp"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#DAF6F9">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/listMe30"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict19"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="154dp"
+                            android:background="@color/white"
+                            android:src="@drawable/dict1" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict20"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict21"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict22"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#A0C3BB"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict2" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict23"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict24"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict25"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B9DADA"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict3" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict26"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict27"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict28"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B9DADA"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict4" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict29"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict30"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B9DADA"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict5" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict31"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict32"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dict33"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B9DADA"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/dict6" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5FBF6"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/set22"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict34"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5sp"
+                                android:text="@string/dict35"
+                                android:textColor="@color/black"
+                                android:textSize="23sp"
+                                android:textScaleX="1.1"
+                                android:textStyle="italic" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dict36"
+                                android:textColor="@color/black"
+                                android:textScaleX="1.05"
+                                android:padding="5sp"
+                                android:background="#B9DADA"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:src="@drawable/dict7" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#E5FBF6"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5sp"
+                                    android:text="@string/set22"
+                                    android:textColor="@color/black"
+                                    android:textSize="23sp"
+                                    android:textScaleX="1.1"
+                                    android:textStyle="italic" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5sp"
+                                    android:text="@string/dict37"
+                                    android:textColor="@color/black"
+                                    android:textSize="23sp"
+                                    android:textScaleX="1.1"
+                                    android:textStyle="italic" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="-12sp"
+                app:cardBackgroundColor="#DCF3F5"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#DAF6F9">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict38"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict39"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict40"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/keys" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict41"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict42"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/values" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict43"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict44"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/items" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict45"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict58"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict46"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="152dp"
+                            android:background="@color/white"
+                            android:src="@drawable/get" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict47"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict48"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict49"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/popdict" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict50"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict59"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict51"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/popitem" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict52"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict53"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/cleardict" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict54"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict55"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/update" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict56"
+                        android:textSize="28sp"
+                        android:padding="5sp"
+                        android:layout_marginTop="7sp"
+                        android:textStyle="bold"
+                        android:textScaleX="1.1"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dict57"
+                        android:textColor="@color/black"
+                        android:textScaleX="1.1"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tupleF24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.05"
+                            android:padding="5sp"
+                            android:background="#B0F8F8"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/copydict" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

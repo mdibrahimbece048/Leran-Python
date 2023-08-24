@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VariablesAndTypesForBasicPython"
+    android:background="#293739">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:padding="11dp"
+        android:textColor="@color/white"
+        android:background="#2979FF"
+        android:text="@string/introi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90sp"
+        android:layout_margin="10sp"
+        android:background="@color/black"
+        android:padding="11dp"
+        android:text="@string/intoall"
+        android:textColor="#05D0EF"
+        android:textSize="28sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:splitMotionEvents="true"
+                android:layout_marginTop="-10sp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C6E4F6"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#C6E4F6">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro1"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro2"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro3"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#CBF0F5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro4"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro5"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro6"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#AEE4D8">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro7"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro8"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#CBF0F5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro9"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro10"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#DAF6F6">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro11"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro12"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro13"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro14"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                            <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro15"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#B3D4D9">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro16"
+                            android:textSize="28sp"
+                            android:padding="5sp"
+                            android:textStyle="bold"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro17"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro18"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro19"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro20"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro21"
+                            android:textSize="23sp"
+                            android:padding="5sp"
+                            android:textStyle="italic"
+                            android:textScaleX="1.1"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-12sp"
+                android:splitMotionEvents="true"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B9F6CA"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:text="@string/intro22"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:padding="5sp"
+                        android:textScaleX="1.1"
+                        android:textStyle="italic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#DAF5E8">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro23"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro24"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro25"
+                            android:layout_margin="7sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#CAFCF1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro26"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro27"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro28"
+                            android:layout_margin="7sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#DAF9FE">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro29"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro30"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro31"
+                            android:layout_margin="7sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#C1EFE9">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro32"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro33"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro34"
+                            android:layout_margin="7sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D9F2EF">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro35"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro36"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro37"
+                            android:layout_margin="7sp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textScaleX="1.1"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D1E2E5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro38"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro39"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#DAF9FE">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro40"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro41"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#D6E8EB">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5sp"
+                            android:text="@string/intro42"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/intro43"
+                            android:textColor="@color/black"
+                            android:textScaleX="1.1"
+                            android:padding="5sp"
+                            android:layout_margin="7sp"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
